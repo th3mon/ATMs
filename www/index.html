@@ -23,17 +23,69 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>ATMs</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
+        <section id="start" class="app start screen">
+            <header>
+                <h1>PhoneGap</h1>
+            </header>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-        </div>
+        </section>
+
+        <section id="home" class="hmoe screen deactive">
+            <header>
+                <h1><a href="#home">ATMs</a></h1>
+                <button id="go">go</button>
+            </header>
+            <ul class="kwadrat">
+                <li><a href="">Dolnośląskie</a></li>
+                <li><a href="">Kujawsko-Pomorskie</a></li>
+                <li><a href="">Lubelskie</a></li>
+                <li><a href="">Lubuskie</a></li>
+                <li><a href="">Łódzkie</a></li>
+                <li><a href="">Małopolskie</a></li>
+                <li><a href="">Mazowieckie</a></li>
+                <li><a href="">Opolskie</a></li>
+                <li><a href="">Podkarpackie</a></li>
+                <li><a href="">Podlaskie</a></li>
+                <li><a href="">Pomorskie</a></li>
+                <li><a href="">Śląskie</a></li>
+                <li><a href="">Świętokrzyskie</a></li>
+                <li><a href="">Warmińsko-Mazurskie</a></li>
+                <li><a href="">Wielkopolskie</a></li>
+                <li><a href="">Zachodniopomorskie</a></li>
+            </ul>
+        </section>
+
+        <section id="atms" class="atms screen deactive">
+            <header>
+                <h1><a href="#home">ATMs</a></h1>
+                <h2>Ruda Śląska</h2>
+            </header>
+            <article>
+                <ul>
+                </ul>
+            </article>
+        </section>
+
+        <script id="atms-template" type="text/x-handlebars-template">
+        {{#each data}}
+            <li>
+                <a href="">
+                    <span class="bank">{{bank}}</span>
+                    <span class="address">{{address}}</span>
+                </a>
+            </li>
+        {{/each}}
+        </script>
+
         <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/zepto.min.js"></script>
+        <script type="text/javascript" src="js/handlebars.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
