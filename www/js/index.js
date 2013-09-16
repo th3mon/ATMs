@@ -47,8 +47,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
         app.$startScreen = $('#start');
         app.$homeScreen = $('#home');
-        app.$button = $('#go');
-        app.$button.on('click', app.loadATMs);
+        app.$buttons = $('.button');
+        app.$buttons.on('click', app.onClickCityButton);
         app.$atmsScreen = $('#atms');
         $('h1>a').on('click', app.showHomeScreen);
         setTimeout(app.showHomeScreen, 10);
@@ -68,23 +68,35 @@ var app = {
         app.$atmsScreen.removeClass('deactive');
     },
 
-    loadATMs: function(){
-        app.ATMs = {
-            data: [
-                {bank: 'EURONET', address: '1 Maja 49 - Credit Agricole Bank Polska'},
-                {bank: 'ECARD', address: '1 Maja 61 - Supermarket "Spar"'},
-                {bank: 'PEKAOSA', address: '1 Maja 219'},
-                {bank: 'ING', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
-                {bank: 'EURONET', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
-                {bank: 'PKOBP', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
-                {bank: 'PKOBP', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
-                {bank: 'EURONET', address: '1 Maja 370a - Supermarket "Tesco"'},
-                {bank: 'EURONET', address: '1 Maja 370a - Supermarket "Tesco"'},
-                {bank: 'PKOBP', address: 'Autostrada A4 - Stacja Paliw "Shell"'}
-            ]
-        };
+    loadATMs: function(city){
+        var
+            url = 'data/banks/#city.json',
+            parseCity = function(city) {
+                return city.toLowerCase()
+                    .replace(' ', '_')
+                    .replace(/ś/ig, 's')
+                    .replace(/ą/ig, 'a')
+                    .replace(/ę/ig, 'e')
+                    .replace(/ó/ig, 'o')
+                    .replace(/ł/ig, 'l')
+                    .replace(/ż|ź/ig, 'z')
+                    .replace(/ć/ig, 'c')
+                    .replace(/ń/ig, 'n');
+            };
 
-        app.onDataLoaded();
+        city = parseCity(city);
+        url = url.replace('#city', city);
+
+        $.getJSON(url, function(data){
+            app.ATMs = data;
+            app.onDataLoaded();
+        });
+    },
+
+    onClickCityButton: function(){
+        var city = $(this).data('city');
+
+        app.loadATMs(city);
     },
 
     onDataLoaded: function(){
@@ -97,6 +109,7 @@ var app = {
             template = Handlebars.compile(source),
             html = template(app.ATMs);
 
+        app.$atmsScreen.find('h2').text(app.ATMs.city);
         app.$atmsScreen.find('article ul').html(html);
         app.showAtmsScreen();
     }

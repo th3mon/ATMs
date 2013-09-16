@@ -27,6 +27,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        window.addEventListener('load', this.onDeviceReady, false);
     },
     // deviceready Event Handler
     //
@@ -37,13 +38,66 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+        var
+            parentElement = document.getElementById(id),
+            listeningElement = parentElement.querySelector('.listening'),
+            receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+        app.$startScreen = $('#start');
+        app.$homeScreen = $('#home');
+        app.$button = $('#go');
+        app.$button.on('click', app.loadATMs);
+        app.$atmsScreen = $('#atms');
+        $('h1>a').on('click', app.showHomeScreen);
+        setTimeout(app.showHomeScreen, 10);
+    },
 
-        console.log('Received Event: ' + id);
+    showHomeScreen: function(){
+        var $screens = app.$startScreen;
+
+        $screens.add(app.$atmsScreen).addClass('deactive');
+        app.$homeScreen.removeClass('deactive');
+    },
+
+    showAtmsScreen: function(){
+        var $screens = app.$startScreen;
+
+        $screens.add(app.$homeScreen).addClass('deactive');
+        app.$atmsScreen.removeClass('deactive');
+    },
+
+    loadATMs: function(){
+        app.ATMs = {
+            data: [
+                {bank: 'EURONET', address: '1 Maja 49 - Credit Agricole Bank Polska'},
+                {bank: 'ECARD', address: '1 Maja 61 - Supermarket "Spar"'},
+                {bank: 'PEKAOSA', address: '1 Maja 219'},
+                {bank: 'ING', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
+                {bank: 'EURONET', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
+                {bank: 'PKOBP', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
+                {bank: 'PKOBP', address: '1 Maja 310 - Centrum Handlowe "Ruda Śląska Plaza"'},
+                {bank: 'EURONET', address: '1 Maja 370a - Supermarket "Tesco"'},
+                {bank: 'EURONET', address: '1 Maja 370a - Supermarket "Tesco"'},
+                {bank: 'PKOBP', address: 'Autostrada A4 - Stacja Paliw "Shell"'}
+            ]
+        };
+
+        app.onDataLoaded();
+    },
+
+    onDataLoaded: function(){
+        app.parseData();
+    },
+
+    parseData: function(){
+        var
+            source = $("#atms-template").html(),
+            template = Handlebars.compile(source),
+            html = template(app.ATMs);
+
+        app.$atmsScreen.find('article ul').html(html);
+        app.showAtmsScreen();
     }
 };

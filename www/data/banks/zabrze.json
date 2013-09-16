@@ -1,0 +1,45 @@
+{
+    "city": "Zabrze",
+    "data": [
+        {
+            "bank": "EURONET",
+            "address": "1 Maja 49 - Credit Agricole Bank Polska"
+        },
+        {
+            "bank": "ECARD",
+            "address": "1 Maja 61 - Supermarket 'Spar'"
+        },
+        {
+            "bank": "PEKAOSA",
+            "address": "1 Maja 219"
+        },
+        {
+            "bank": "ING",
+            "address": "1 Maja 310 - Centrum Handlowe 'Ruda Śląska Plaza'"
+        },
+        {
+            "bank": "EURONET",
+            "address": "1 Maja 310 - Centrum Handlowe 'Ruda Śląska Plaza'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "1 Maja 310 - Centrum Handlowe 'Ruda Śląska Plaza'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "1 Maja 310 - Centrum Handlowe 'Ruda Śląska Plaza'"
+        },
+        {
+            "bank": "EURONET",
+            "address": "1 Maja 370a - Supermarket 'Tesco'"
+        },
+        {
+            "bank": "EURONET",
+            "address": "1 Maja 370a - Supermarket 'Tesco'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Autostrada A4 - Stacja Paliw 'Shell'"
+        }
+    ]
+}
