@@ -48,9 +48,10 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        app.cache = {};
+
         app.screens = {
             $start: $('#start'),
-            $atms: $('#atms'),
             $provinces: $('#provinces'),
             $province: $('#province'),
             $city: $('#city')
@@ -67,9 +68,13 @@ var app = {
         setTimeout(app.showProvincesScreen, 10);
     },
 
-    showScreen: function(screenName){
+    showScreen: function(screenName, callback){
         app.$screens.addClass('deactive');
         app.screens[screenName].removeClass('deactive');
+
+        if ($.isFunction(callback)) {
+            callback()
+        }
     },
 
     showProvincesScreen: function(){
@@ -81,9 +86,13 @@ var app = {
             province = $(this).text(),
             url = 'data/#province/#province.json';
 
+        app.cache.province = province;
+
         app.screens.$province.find('h2').text(province);
         province = app.parseToPath(province);
         url = url.replace(/#province/ig, province);
+
+        app.cache.provinceUrl = province;
 
         $.getJSON(url, function(data) {
             var
@@ -92,23 +101,34 @@ var app = {
                 html = template(data);
 
             app.screens.$province.find('ul').html(html);
-            app.showScreen('$province');
+            app.showScreen('$province', function() {
+                app.screens.$province.find('a').on('click', function() {
+                    app.showCity($(this).text());
+                });
+            });
         });
     },
 
-    showCityScreen: function(city){
-        app.showScreen('$' + city);
-    },
+    showCity: function(city){
+        var
+            url = 'data/#province/cities/#city.json',
 
-    loadATMs: function(city){
-        var url = 'data/banks/#city.json';
+            parseCityData = function(data){
+                var
+                    source = $('#city-template').html(),
+                    template = Handlebars.compile(source),
+                    html = template(data);
+
+                app.screens.$city.find('h2').text(data.city);
+                app.screens.$city.find('article ul').html(html);
+                app.showScreen('$city');
+            };
 
         city = app.parseToPath(city);
-        url = url.replace('#city', city);
+        url = url.replace('#city', city).replace('#province', app.cache.provinceUrl);
 
         $.getJSON(url, function(data){
-            app.ATMs = data;
-            app.onDataLoaded();
+            parseCityData(data);
         });
     },
 
@@ -129,20 +149,5 @@ var app = {
         var city = $(this).data('city');
 
         app.loadATMs(city);
-    },
-
-    onDataLoaded: function(){
-        app.parseCityData();
-    },
-
-    parseCityData: function(){
-        var
-            source = $('#city-template').html(),
-            template = Handlebars.compile(source),
-            html = template(app.ATMs);
-
-        app.$atmsScreen.find('h2').text(app.ATMs.city);
-        app.$atmsScreen.find('article ul').html(html);
-        app.showCityScreen(app.ATMs.city);
     }
 };
