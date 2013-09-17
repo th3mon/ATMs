@@ -45,22 +45,22 @@
                 <h2>Województwa</h2>
             </header>
             <ul>
-                <li><a href="">Dolnośląskie</a></li>
-                <li><a href="">Kujawsko-Pomorskie</a></li>
-                <li><a href="">Lubelskie</a></li>
-                <li><a href="">Lubuskie</a></li>
-                <li><a href="">Łódzkie</a></li>
-                <li><a href="">Małopolskie</a></li>
-                <li><a href="">Mazowieckie</a></li>
-                <li><a href="">Opolskie</a></li>
-                <li><a href="">Podkarpackie</a></li>
-                <li><a href="">Podlaskie</a></li>
-                <li><a href="">Pomorskie</a></li>
-                <li><a href="">Śląskie</a></li>
-                <li><a href="">Świętokrzyskie</a></li>
-                <li><a href="">Warmińsko-Mazurskie</a></li>
-                <li><a href="">Wielkopolskie</a></li>
-                <li><a href="">Zachodniopomorskie</a></li>
+                <li><a href="#">Dolnośląskie</a></li>
+                <li><a href="#">Kujawsko-Pomorskie</a></li>
+                <li><a href="#">Lubelskie</a></li>
+                <li><a href="#">Lubuskie</a></li>
+                <li><a href="#">Łódzkie</a></li>
+                <li><a href="#">Małopolskie</a></li>
+                <li><a href="#">Mazowieckie</a></li>
+                <li><a href="#">Opolskie</a></li>
+                <li><a href="#">Podkarpackie</a></li>
+                <li><a href="#">Podlaskie</a></li>
+                <li><a href="#">Pomorskie</a></li>
+                <li><a href="#">Śląskie</a></li>
+                <li><a href="#">Świętokrzyskie</a></li>
+                <li><a href="#">Warmińsko-Mazurskie</a></li>
+                <li><a href="#">Wielkopolskie</a></li>
+                <li><a href="#">Zachodniopomorskie</a></li>
             </ul>
         </section>
 
@@ -69,8 +69,6 @@
                 <h2/>
             </header>
             <ul>
-                <li><a class="button" href="#ruda_slaska" data-city="Ruda Śląska">Ruda Śląska</a></li>
-                <li><a class="button" href="#zabrze" data-city="Zabrze">Zabrze</a></li>
             </ul>
         </section>
 
@@ -92,6 +90,12 @@
                     <span class="address">{{address}}</span>
                 </a>
             </li>
+        {{/each}}
+        </script>
+
+        <script id="province-template" type="text/x-handlebars-template">
+        {{#each data}}
+            <li><a href="">{{province}}</a></li>
         {{/each}}
         </script>
 

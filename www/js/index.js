@@ -58,10 +58,11 @@ var app = {
 
         app.$screens = $('.screen');
 
-        console.log(app.screens);
-
         app.$buttons = $('.button');
         app.$buttons.on('click', app.onClickCityButton);
+
+        app.screens.$provinces.find('a').on('click', app.showProvinceScreen);
+
         $('h1>a').on('click', app.showProvincesScreen);
         setTimeout(app.showProvincesScreen, 10);
     },
@@ -75,33 +76,37 @@ var app = {
         app.showScreen('$provinces');
     },
 
+    showProvinceScreen: function(){
+        console.log(this);
+    },
+
     showCityScreen: function(city){
         app.showScreen('$' + city);
     },
 
     loadATMs: function(city){
-        var
-            url = 'data/banks/#city.json',
-            parseCity = function(city) {
-                return city.toLowerCase()
-                    .replace(' ', '_')
-                    .replace(/ś/ig, 's')
-                    .replace(/ą/ig, 'a')
-                    .replace(/ę/ig, 'e')
-                    .replace(/ó/ig, 'o')
-                    .replace(/ł/ig, 'l')
-                    .replace(/ż|ź/ig, 'z')
-                    .replace(/ć/ig, 'c')
-                    .replace(/ń/ig, 'n');
-            };
+        var url = 'data/banks/#city.json';
 
-        city = parseCity(city);
+        city = app.parseToPath(city);
         url = url.replace('#city', city);
 
         $.getJSON(url, function(data){
             app.ATMs = data;
             app.onDataLoaded();
         });
+    },
+
+    parseToPath: function(str) {
+        return str.toLowerCase()
+            .replace(' ', '_')
+            .replace(/ś/ig, 's')
+            .replace(/ą/ig, 'a')
+            .replace(/ę/ig, 'e')
+            .replace(/ó/ig, 'o')
+            .replace(/ł/ig, 'l')
+            .replace(/ż|ź/ig, 'z')
+            .replace(/ć/ig, 'c')
+            .replace(/ń/ig, 'n');
     },
 
     onClickCityButton: function(){
@@ -111,12 +116,12 @@ var app = {
     },
 
     onDataLoaded: function(){
-        app.parseData();
+        app.parseCityData();
     },
 
-    parseData: function(){
+    parseCityData: function(){
         var
-            source = $('#atms-template').html(),
+            source = $('#city-template').html(),
             template = Handlebars.compile(source),
             html = template(app.ATMs);
 
