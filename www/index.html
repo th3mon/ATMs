@@ -36,15 +36,14 @@
             </div>
         </section>
 
-        <section id="home" class="home screen deactive">
+        <section id="header" class="header">
+            <h1><a href="#home">Bankomaty</a></h1>
+        </section>
+
+        <section id="provinces" class="provinces screen deactive">
             <header>
-                <h1><a href="#home">ATMs</a></h1>
-                <button id="go">go</button>
+                <h2>Województwa</h2>
             </header>
-            <ul>
-                <li><a class="button" href="#ruda_slaska" data-city="Ruda Śląska">Ruda Śląska</a></li>
-                <li><a class="button" href="#zabrze" data-city="Zabrze">Zabrze</a></li>
-            </ul>
             <ul>
                 <li><a href="">Dolnośląskie</a></li>
                 <li><a href="">Kujawsko-Pomorskie</a></li>
@@ -65,9 +64,18 @@
             </ul>
         </section>
 
-        <section id="atms" class="atms screen deactive">
+        <section id="province" class="province screen deactive">
             <header>
-                <h1><a href="#home">ATMs</a></h1>
+                <h2/>
+            </header>
+            <ul>
+                <li><a class="button" href="#ruda_slaska" data-city="Ruda Śląska">Ruda Śląska</a></li>
+                <li><a class="button" href="#zabrze" data-city="Zabrze">Zabrze</a></li>
+            </ul>
+        </section>
+
+        <section id="city" class="city screen deactive">
+            <header>
                 <h2/>
             </header>
             <article>
@@ -76,7 +84,7 @@
             </article>
         </section>
 
-        <script id="atms-template" type="text/x-handlebars-template">
+        <script id="city-template" type="text/x-handlebars-template">
         {{#each data}}
             <li>
                 <a href="">

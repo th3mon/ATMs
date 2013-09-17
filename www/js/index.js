@@ -16,6 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+/* jshint strict: false */
+/* global Handlebars */
 var app = {
     // Application Constructor
     initialize: function() {
@@ -45,23 +47,35 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        app.$startScreen = $('#start');
-        app.$homeScreen = $('#home');
+
+        app.screens = {
+            $start: $('#start'),
+            $atms: $('#atms'),
+            $provinces: $('#provinces'),
+            $provinces: $('#provinces'),
+            $city: $('#city')
+        };
+
+        app.$screens = $('.screen');
+
+        console.log(app.screens);
+
         app.$buttons = $('.button');
         app.$buttons.on('click', app.onClickCityButton);
-        app.$atmsScreen = $('#atms');
-        $('h1>a').on('click', app.showHomeScreen);
-        setTimeout(app.showHomeScreen, 10);
+        $('h1>a').on('click', app.showProvincesScreen);
+        setTimeout(app.showProvincesScreen, 10);
     },
 
-    showHomeScreen: function(){
-        var $screens = app.$startScreen;
+    showProvincesScreen: function(){
+        // var $screens = app.$startScreen;
 
-        $screens.add(app.$atmsScreen).addClass('deactive');
-        app.$homeScreen.removeClass('deactive');
+        // $screens.add(app.$homeScreen).addClass('deactive');
+        // app.$atmsScreen.removeClass('deactive');
+        app.$screens.addClass('deactive');
+        app.screens.$provinces.removeClass('deactive');
     },
 
-    showAtmsScreen: function(){
+    showCityScreen: function(){
         var $screens = app.$startScreen;
 
         $screens.add(app.$homeScreen).addClass('deactive');
@@ -105,12 +119,12 @@ var app = {
 
     parseData: function(){
         var
-            source = $("#atms-template").html(),
+            source = $('#atms-template').html(),
             template = Handlebars.compile(source),
             html = template(app.ATMs);
 
         app.$atmsScreen.find('h2').text(app.ATMs.city);
         app.$atmsScreen.find('article ul').html(html);
-        app.showAtmsScreen();
+        app.showCityScreen();
     }
 };
