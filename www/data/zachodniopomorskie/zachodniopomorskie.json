@@ -1,0 +1,361 @@
+{
+    "data": [
+        {
+            "city": "Banie"
+        },
+        {
+            "city": "Barlinek"
+        },
+        {
+            "city": "Barnisław"
+        },
+        {
+            "city": "Barwice"
+        },
+        {
+            "city": "Będzino"
+        },
+        {
+            "city": "Białogard"
+        },
+        {
+            "city": "Biały Bór"
+        },
+        {
+            "city": "Bierzwnik"
+        },
+        {
+            "city": "Biesiekierz"
+        },
+        {
+            "city": "Bobolice"
+        },
+        {
+            "city": "Boleszkowice"
+        },
+        {
+            "city": "Borne Sulinowo"
+        },
+        {
+            "city": "Brojce"
+        },
+        {
+            "city": "Cedynia"
+        },
+        {
+            "city": "Cerkwica"
+        },
+        {
+            "city": "Chociwel"
+        },
+        {
+            "city": "Chojna"
+        },
+        {
+            "city": "Choszczno"
+        },
+        {
+            "city": "Czaplinek"
+        },
+        {
+            "city": "Człopa"
+        },
+        {
+            "city": "Darłowo"
+        },
+        {
+            "city": "Dąbki"
+        },
+        {
+            "city": "Dębno"
+        },
+        {
+            "city": "Dobra"
+        },
+        {
+            "city": "Dobrzany"
+        },
+        {
+            "city": "Dolice"
+        },
+        {
+            "city": "Drawno"
+        },
+        {
+            "city": "Drawsko Pomorskie"
+        },
+        {
+            "city": "Dygowo"
+        },
+        {
+            "city": "Dziwnów"
+        },
+        {
+            "city": "Dziwnówek"
+        },
+        {
+            "city": "Dźwirzyno"
+        },
+        {
+            "city": "Glewice"
+        },
+        {
+            "city": "Golczewo"
+        },
+        {
+            "city": "Goleniów"
+        },
+        {
+            "city": "Gościno"
+        },
+        {
+            "city": "Gryfice"
+        },
+        {
+            "city": "Gryfino"
+        },
+        {
+            "city": "Grzmiąca"
+        },
+        {
+            "city": "Ińsko"
+        },
+        {
+            "city": "Jarosławiec"
+        },
+        {
+            "city": "Kalisz Pomorski"
+        },
+        {
+            "city": "Kamień Pomorski"
+        },
+        {
+            "city": "Karlino"
+        },
+        {
+            "city": "Karnice"
+        },
+        {
+            "city": "Kołczewo"
+        },
+        {
+            "city": "Kołobrzeg"
+        },
+        {
+            "city": "Koszalin"
+        },
+        {
+            "city": "Krzęcin"
+        },
+        {
+            "city": "Kukinia"
+        },
+        {
+            "city": "Lipiany"
+        },
+        {
+            "city": "Lubieszyn"
+        },
+        {
+            "city": "Łobez"
+        },
+        {
+            "city": "Malechowo"
+        },
+        {
+            "city": "Maszewo"
+        },
+        {
+            "city": "Mielno"
+        },
+        {
+            "city": "Mierzyn"
+        },
+        {
+            "city": "Mieszkowice"
+        },
+        {
+            "city": "Międzywodzie"
+        },
+        {
+            "city": "Międzyzdroje"
+        },
+        {
+            "city": "Mirosławiec"
+        },
+        {
+            "city": "Moryń"
+        },
+        {
+            "city": "Mrzeżyno"
+        },
+        {
+            "city": "Myślibórz"
+        },
+        {
+            "city": "Niechorze"
+        },
+        {
+            "city": "Nowe Czarnowo"
+        },
+        {
+            "city": "Nowe Warpno"
+        },
+        {
+            "city": "Nowogard"
+        },
+        {
+            "city": "Osinów Dolny"
+        },
+        {
+            "city": "Pełczyce"
+        },
+        {
+            "city": "Płoty"
+        },
+        {
+            "city": "Pobierowo"
+        },
+        {
+            "city": "Pogorzelica"
+        },
+        {
+            "city": "Polanów"
+        },
+        {
+            "city": "Police"
+        },
+        {
+            "city": "Połczyn-Zdrój"
+        },
+        {
+            "city": "Postomino"
+        },
+        {
+            "city": "Przecław"
+        },
+        {
+            "city": "Przelewice"
+        },
+        {
+            "city": "Przybiernów"
+        },
+        {
+            "city": "Pyrzyce"
+        },
+        {
+            "city": "Recz"
+        },
+        {
+            "city": "Resko"
+        },
+        {
+            "city": "Rewal"
+        },
+        {
+            "city": "Rymań"
+        },
+        {
+            "city": "Sarbinowo"
+        },
+        {
+            "city": "Sianożęty"
+        },
+        {
+            "city": "Sianów"
+        },
+        {
+            "city": "Siemyśl"
+        },
+        {
+            "city": "Sitno"
+        },
+        {
+            "city": "Sławno"
+        },
+        {
+            "city": "Sławoborze"
+        },
+        {
+            "city": "Stare Brynki"
+        },
+        {
+            "city": "Stare Czarnowo"
+        },
+        {
+            "city": "Stargard Szczeciński"
+        },
+        {
+            "city": "Stepnica"
+        },
+        {
+            "city": "Suchań"
+        },
+        {
+            "city": "Szczecin"
+        },
+        {
+            "city": "Szczecinek"
+        },
+        {
+            "city": "Świdwin"
+        },
+        {
+            "city": "Świerzno"
+        },
+        {
+            "city": "Świnoujście"
+        },
+        {
+            "city": "Trzcińsko-Zdrój"
+        },
+        {
+            "city": "Trzebiatów"
+        },
+        {
+            "city": "Trzebież"
+        },
+        {
+            "city": "Tuczno"
+        },
+        {
+            "city": "Tychowo"
+        },
+        {
+            "city": "Unieście"
+        },
+        {
+            "city": "Ustowo"
+        },
+        {
+            "city": "Ustronie Morskie"
+        },
+        {
+            "city": "Wałcz"
+        },
+        {
+            "city": "Warzymice"
+        },
+        {
+            "city": "Węgorzyno"
+        },
+        {
+            "city": "Widuchowa"
+        },
+        {
+            "city": "Wierzchowo"
+        },
+        {
+            "city": "Wisełka"
+        },
+        {
+            "city": "Wolin"
+        },
+        {
+            "city": "Załom"
+        },
+        {
+            "city": "Złocieniec"
+        }
+    ]
+}

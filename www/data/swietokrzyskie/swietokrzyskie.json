@@ -1,0 +1,313 @@
+{
+    "data": [
+        {
+            "city": "Baćkowice"
+        },
+        {
+            "city": "Bałtów"
+        },
+        {
+            "city": "Bejsce"
+        },
+        {
+            "city": "Bieliny"
+        },
+        {
+            "city": "Bilcza"
+        },
+        {
+            "city": "Bliżyn"
+        },
+        {
+            "city": "Bodzentyn"
+        },
+        {
+            "city": "Bogoria"
+        },
+        {
+            "city": "Brody"
+        },
+        {
+            "city": "Busko-Zdrój"
+        },
+        {
+            "city": "Chęciny"
+        },
+        {
+            "city": "Chlewice"
+        },
+        {
+            "city": "Chmielnik"
+        },
+        {
+            "city": "Ćmielów"
+        },
+        {
+            "city": "Daleszyce"
+        },
+        {
+            "city": "Dwikozy"
+        },
+        {
+            "city": "Działoszyce"
+        },
+        {
+            "city": "Fałków"
+        },
+        {
+            "city": "Gacki"
+        },
+        {
+            "city": "Gnojno"
+        },
+        {
+            "city": "Gowarczów"
+        },
+        {
+            "city": "Górno"
+        },
+        {
+            "city": "Imielno"
+        },
+        {
+            "city": "Iwaniska"
+        },
+        {
+            "city": "Jędrzejów"
+        },
+        {
+            "city": "Kazimierza Wielka"
+        },
+        {
+            "city": "Kielce"
+        },
+        {
+            "city": "Kije"
+        },
+        {
+            "city": "Klimontów"
+        },
+        {
+            "city": "Kluczewsko"
+        },
+        {
+            "city": "Końskie"
+        },
+        {
+            "city": "Koprzywnica"
+        },
+        {
+            "city": "Korytnica"
+        },
+        {
+            "city": "Kostomłoty Drugie"
+        },
+        {
+            "city": "Koszyce"
+        },
+        {
+            "city": "Krasocin"
+        },
+        {
+            "city": "Krzyż"
+        },
+        {
+            "city": "Kunów"
+        },
+        {
+            "city": "Lipnik"
+        },
+        {
+            "city": "Łagów"
+        },
+        {
+            "city": "Łączna"
+        },
+        {
+            "city": "Łoniów"
+        },
+        {
+            "city": "Łopuszno"
+        },
+        {
+            "city": "Łubnice"
+        },
+        {
+            "city": "Małogoszcz"
+        },
+        {
+            "city": "Michałów"
+        },
+        {
+            "city": "Mirzec"
+        },
+        {
+            "city": "Mniów"
+        },
+        {
+            "city": "Morawica"
+        },
+        {
+            "city": "Nagłowice"
+        },
+        {
+            "city": "Nowa Słupia"
+        },
+        {
+            "city": "Nowiny"
+        },
+        {
+            "city": "Nowiny"
+        },
+        {
+            "city": "Nowy Korczyn"
+        },
+        {
+            "city": "Obrazów"
+        },
+        {
+            "city": "Oksa"
+        },
+        {
+            "city": "Oleśnica"
+        },
+        {
+            "city": "Opatowiec"
+        },
+        {
+            "city": "Opatów"
+        },
+        {
+            "city": "Osiek"
+        },
+        {
+            "city": "Ostrowiec Świętokrzyski"
+        },
+        {
+            "city": "Ożarów"
+        },
+        {
+            "city": "Pacanów"
+        },
+        {
+            "city": "Pawłów"
+        },
+        {
+            "city": "Piekoszów"
+        },
+        {
+            "city": "Pierzchnica"
+        },
+        {
+            "city": "Pińczów"
+        },
+        {
+            "city": "Połaniec"
+        },
+        {
+            "city": "Radków"
+        },
+        {
+            "city": "Radoszyce"
+        },
+        {
+            "city": "Raków"
+        },
+        {
+            "city": "Rytwiany"
+        },
+        {
+            "city": "Sadowie"
+        },
+        {
+            "city": "Samborzec"
+        },
+        {
+            "city": "Samsonów"
+        },
+        {
+            "city": "Sandomierz"
+        },
+        {
+            "city": "Secemin"
+        },
+        {
+            "city": "Sędziszów"
+        },
+        {
+            "city": "Sitkówka"
+        },
+        {
+            "city": "Skalbmierz"
+        },
+        {
+            "city": "Skarżysko Kościelne"
+        },
+        {
+            "city": "Skarżysko-Kamienna"
+        },
+        {
+            "city": "Słupia"
+        },
+        {
+            "city": "Słupia"
+        },
+        {
+            "city": "Smyków"
+        },
+        {
+            "city": "Sobków"
+        },
+        {
+            "city": "Solec-Zdrój"
+        },
+        {
+            "city": "Starachowice"
+        },
+        {
+            "city": "Staszów"
+        },
+        {
+            "city": "Stąporków"
+        },
+        {
+            "city": "Stopnica"
+        },
+        {
+            "city": "Strawczyn"
+        },
+        {
+            "city": "Suchedniów"
+        },
+        {
+            "city": "Szydłów"
+        },
+        {
+            "city": "Tarłów"
+        },
+        {
+            "city": "Tuczępy"
+        },
+        {
+            "city": "Wąchock"
+        },
+        {
+            "city": "Wiślica"
+        },
+        {
+            "city": "Włoszczowa"
+        },
+        {
+            "city": "Wodzisław"
+        },
+        {
+            "city": "Zagnańsk"
+        },
+        {
+            "city": "Zawichost"
+        },
+        {
+            "city": "Złota"
+        }
+    ]
+}

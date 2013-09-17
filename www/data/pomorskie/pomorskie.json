@@ -1,0 +1,403 @@
+{
+    "data": [
+        {
+            "city": "Banino"
+        },
+        {
+            "city": "Białogóra"
+        },
+        {
+            "city": "Bobowo"
+        },
+        {
+            "city": "Bojano"
+        },
+        {
+            "city": "Bolesławice"
+        },
+        {
+            "city": "Bolszewo"
+        },
+        {
+            "city": "Borkowo"
+        },
+        {
+            "city": "Brusy"
+        },
+        {
+            "city": "Bytów"
+        },
+        {
+            "city": "Cedry Wielkie"
+        },
+        {
+            "city": "Charzykowy"
+        },
+        {
+            "city": "Chmielno"
+        },
+        {
+            "city": "Choczewo"
+        },
+        {
+            "city": "Chojnice"
+        },
+        {
+            "city": "Chwaszczyno"
+        },
+        {
+            "city": "Cieplewo"
+        },
+        {
+            "city": "Czarna Woda"
+        },
+        {
+            "city": "Czarne"
+        },
+        {
+            "city": "Czersk"
+        },
+        {
+            "city": "Człuchów"
+        },
+        {
+            "city": "Damnica"
+        },
+        {
+            "city": "Debrzno"
+        },
+        {
+            "city": "Dębki"
+        },
+        {
+            "city": "Dębnica Kaszubska"
+        },
+        {
+            "city": "Drewnica"
+        },
+        {
+            "city": "Dziemiany"
+        },
+        {
+            "city": "Dzierzgoń"
+        },
+        {
+            "city": "Gardeja"
+        },
+        {
+            "city": "Gdańsk"
+        },
+        {
+            "city": "Gdynia"
+        },
+        {
+            "city": "Główczyce"
+        },
+        {
+            "city": "Gniew"
+        },
+        {
+            "city": "Gniewino"
+        },
+        {
+            "city": "Gołubie"
+        },
+        {
+            "city": "Gościcino"
+        },
+        {
+            "city": "Hel"
+        },
+        {
+            "city": "Jantar"
+        },
+        {
+            "city": "Jastarnia"
+        },
+        {
+            "city": "Kaliska"
+        },
+        {
+            "city": "Kalisz"
+        },
+        {
+            "city": "Karsin"
+        },
+        {
+            "city": "Kartuzy"
+        },
+        {
+            "city": "Kąty Rybackie"
+        },
+        {
+            "city": "Kępice"
+        },
+        {
+            "city": "Kobylnica"
+        },
+        {
+            "city": "Kolbudy"
+        },
+        {
+            "city": "Kołczygłowy"
+        },
+        {
+            "city": "Konarzyny"
+        },
+        {
+            "city": "Kosakowo"
+        },
+        {
+            "city": "Kościerzyna"
+        },
+        {
+            "city": "Kowale"
+        },
+        {
+            "city": "Krokowa"
+        },
+        {
+            "city": "Krynica Morska"
+        },
+        {
+            "city": "Kwidzyn"
+        },
+        {
+            "city": "Lębork"
+        },
+        {
+            "city": "Lichnowy"
+        },
+        {
+            "city": "Linia"
+        },
+        {
+            "city": "Liniewo"
+        },
+        {
+            "city": "Lipnica"
+        },
+        {
+            "city": "Lipusz"
+        },
+        {
+            "city": "Lubichowo"
+        },
+        {
+            "city": "Lublewo Gdańskie"
+        },
+        {
+            "city": "Luzino"
+        },
+        {
+            "city": "Łeba"
+        },
+        {
+            "city": "Łubiana"
+        },
+        {
+            "city": "Malbork"
+        },
+        {
+            "city": "Miastko"
+        },
+        {
+            "city": "Mikołajki Pomorskie"
+        },
+        {
+            "city": "Miłobądz"
+        },
+        {
+            "city": "Morzeszczyn"
+        },
+        {
+            "city": "Nowa Karczma"
+        },
+        {
+            "city": "Nowy Dwór Gdański"
+        },
+        {
+            "city": "Nowy Staw"
+        },
+        {
+            "city": "Osiek"
+        },
+        {
+            "city": "Ostaszewo"
+        },
+        {
+            "city": "Pelplin"
+        },
+        {
+            "city": "Pinczyn"
+        },
+        {
+            "city": "Potęgowo"
+        },
+        {
+            "city": "Prabuty"
+        },
+        {
+            "city": "Pruszcz Gdański"
+        },
+        {
+            "city": "Przechlewo"
+        },
+        {
+            "city": "Przejazdowo"
+        },
+        {
+            "city": "Przodkowo"
+        },
+        {
+            "city": "Przywidz"
+        },
+        {
+            "city": "Pszczółki"
+        },
+        {
+            "city": "Puck"
+        },
+        {
+            "city": "Rakowiec"
+        },
+        {
+            "city": "Reda"
+        },
+        {
+            "city": "Redzikowo"
+        },
+        {
+            "city": "Rotmanka"
+        },
+        {
+            "city": "Rowy"
+        },
+        {
+            "city": "Rumia"
+        },
+        {
+            "city": "Ryjewo"
+        },
+        {
+            "city": "Rytel"
+        },
+        {
+            "city": "Sadlinki"
+        },
+        {
+            "city": "Sierakowice"
+        },
+        {
+            "city": "Skarszewy"
+        },
+        {
+            "city": "Skórcz"
+        },
+        {
+            "city": "Słupsk"
+        },
+        {
+            "city": "Smętowo Graniczne"
+        },
+        {
+            "city": "Smołdzino"
+        },
+        {
+            "city": "Sobowidz"
+        },
+        {
+            "city": "Somonino"
+        },
+        {
+            "city": "Sopot"
+        },
+        {
+            "city": "Stara Kiszewa"
+        },
+        {
+            "city": "Stare Pole"
+        },
+        {
+            "city": "Starogard Gdański"
+        },
+        {
+            "city": "Stary Dzierzgoń"
+        },
+        {
+            "city": "Stary Targ"
+        },
+        {
+            "city": "Stegna"
+        },
+        {
+            "city": "Stężyca"
+        },
+        {
+            "city": "Straszyn"
+        },
+        {
+            "city": "Strzebielino"
+        },
+        {
+            "city": "Subkowy"
+        },
+        {
+            "city": "Suchy Dąb"
+        },
+        {
+            "city": "Sulęczyno"
+        },
+        {
+            "city": "Swornegacie"
+        },
+        {
+            "city": "Szemud"
+        },
+        {
+            "city": "Sztum"
+        },
+        {
+            "city": "Sztutowo"
+        },
+        {
+            "city": "Szymbark"
+        },
+        {
+            "city": "Tczew"
+        },
+        {
+            "city": "Trąbki Wielkie"
+        },
+        {
+            "city": "Tuchomie"
+        },
+        {
+            "city": "Ustka"
+        },
+        {
+            "city": "Wejherowo"
+        },
+        {
+            "city": "Wicko"
+        },
+        {
+            "city": "Wiele"
+        },
+        {
+            "city": "Wielki Klincz"
+        },
+        {
+            "city": "Wierzchucino"
+        },
+        {
+            "city": "Władysławowo"
+        },
+        {
+            "city": "Zblewo"
+        },
+        {
+            "city": "Żukowo"
+        }
+    ]
+}

@@ -1,0 +1,409 @@
+{
+    "data": [
+        {
+            "city": "Aleksandrów Kujawski"
+        },
+        {
+            "city": "Barcin"
+        },
+        {
+            "city": "Baruchowo"
+        },
+        {
+            "city": "Bądkowo"
+        },
+        {
+            "city": "Białe Błota"
+        },
+        {
+            "city": "Bnin"
+        },
+        {
+            "city": "Boniewo"
+        },
+        {
+            "city": "Brodnica"
+        },
+        {
+            "city": "Brześć Kujawski"
+        },
+        {
+            "city": "Brzoza"
+        },
+        {
+            "city": "Bukowiec"
+        },
+        {
+            "city": "Bydgoszcz"
+        },
+        {
+            "city": "Bysław"
+        },
+        {
+            "city": "Bytoń"
+        },
+        {
+            "city": "Cekcyn"
+        },
+        {
+            "city": "Chełmno"
+        },
+        {
+            "city": "Chełmża"
+        },
+        {
+            "city": "Choceń"
+        },
+        {
+            "city": "Chodecz"
+        },
+        {
+            "city": "Chrostkowo"
+        },
+        {
+            "city": "Ciechocin"
+        },
+        {
+            "city": "Ciechocinek"
+        },
+        {
+            "city": "Czerniewice"
+        },
+        {
+            "city": "Czernikowo"
+        },
+        {
+            "city": "Dąbrowa"
+        },
+        {
+            "city": "Dąbrowa Biskupia"
+        },
+        {
+            "city": "Dąbrowa Chełmińska"
+        },
+        {
+            "city": "Dębowa Łąka"
+        },
+        {
+            "city": "Dobrcz"
+        },
+        {
+            "city": "Dobre"
+        },
+        {
+            "city": "Dobrzyń nad Wisłą"
+        },
+        {
+            "city": "Drzycim"
+        },
+        {
+            "city": "Gąsawa"
+        },
+        {
+            "city": "Głogowo"
+        },
+        {
+            "city": "Gniewkowo"
+        },
+        {
+            "city": "Golub-Dobrzyń"
+        },
+        {
+            "city": "Gostycyn"
+        },
+        {
+            "city": "Górzno"
+        },
+        {
+            "city": "Grębocin"
+        },
+        {
+            "city": "Grudziądz"
+        },
+        {
+            "city": "Inowrocław"
+        },
+        {
+            "city": "Izbica Kujawska"
+        },
+        {
+            "city": "Jabłonowo Pomorskie"
+        },
+        {
+            "city": "Janikowo"
+        },
+        {
+            "city": "Janowiec Wielkopolski"
+        },
+        {
+            "city": "Jeziora Wielkie"
+        },
+        {
+            "city": "Jeżewo"
+        },
+        {
+            "city": "Kamień Krajeński"
+        },
+        {
+            "city": "Kcynia"
+        },
+        {
+            "city": "Kijewo Królewskie"
+        },
+        {
+            "city": "Kikół"
+        },
+        {
+            "city": "Koneck"
+        },
+        {
+            "city": "Koronowo"
+        },
+        {
+            "city": "Kowal"
+        },
+        {
+            "city": "Kowalewo Pomorskie"
+        },
+        {
+            "city": "Kruszwica"
+        },
+        {
+            "city": "Książki"
+        },
+        {
+            "city": "Lipno"
+        },
+        {
+            "city": "Lisewo"
+        },
+        {
+            "city": "Lniano"
+        },
+        {
+            "city": "Lubanie"
+        },
+        {
+            "city": "Lubicz Dolny"
+        },
+        {
+            "city": "Lubicz Górny"
+        },
+        {
+            "city": "Lubień Kujawski"
+        },
+        {
+            "city": "Lubiewo"
+        },
+        {
+            "city": "Lubraniec"
+        },
+        {
+            "city": "Łabiszyn"
+        },
+        {
+            "city": "Łasin"
+        },
+        {
+            "city": "Łochowo"
+        },
+        {
+            "city": "Łubianka"
+        },
+        {
+            "city": "Łysomice"
+        },
+        {
+            "city": "Mogilno"
+        },
+        {
+            "city": "Mrocza"
+        },
+        {
+            "city": "Nakło nad Notecią"
+        },
+        {
+            "city": "Niemcz"
+        },
+        {
+            "city": "Nieszawa"
+        },
+        {
+            "city": "Nowa Wieś Wielka"
+        },
+        {
+            "city": "Nowe"
+        },
+        {
+            "city": "Obrowo"
+        },
+        {
+            "city": "Osie"
+        },
+        {
+            "city": "Osielsko"
+        },
+        {
+            "city": "Osięciny"
+        },
+        {
+            "city": "Osówiec"
+        },
+        {
+            "city": "Ostaszewo"
+        },
+        {
+            "city": "Ostrowite"
+        },
+        {
+            "city": "Pakość"
+        },
+        {
+            "city": "Papowo Biskupie"
+        },
+        {
+            "city": "Piechcin"
+        },
+        {
+            "city": "Piotrków Kujawski"
+        },
+        {
+            "city": "Płużnica"
+        },
+        {
+            "city": "Potulice"
+        },
+        {
+            "city": "Pruszcz"
+        },
+        {
+            "city": "Raciążek"
+        },
+        {
+            "city": "Radomin"
+        },
+        {
+            "city": "Radziejów"
+        },
+        {
+            "city": "Radziki Duże"
+        },
+        {
+            "city": "Radzyń Chełmiński"
+        },
+        {
+            "city": "Rogowo"
+        },
+        {
+            "city": "Rojewo"
+        },
+        {
+            "city": "Rypin"
+        },
+        {
+            "city": "Sadki"
+        },
+        {
+            "city": "Sępólno Krajeńskie"
+        },
+        {
+            "city": "Sicienko"
+        },
+        {
+            "city": "Skępe"
+        },
+        {
+            "city": "Skrwilno"
+        },
+        {
+            "city": "Sławsko Dolne"
+        },
+        {
+            "city": "Solec Kujawski"
+        },
+        {
+            "city": "Sośno"
+        },
+        {
+            "city": "Stolno"
+        },
+        {
+            "city": "Strzelno"
+        },
+        {
+            "city": "Sypniewo"
+        },
+        {
+            "city": "Szpetal Górny"
+        },
+        {
+            "city": "Szubin"
+        },
+        {
+            "city": "Śliwice"
+        },
+        {
+            "city": "Świecie"
+        },
+        {
+            "city": "Świekatowo"
+        },
+        {
+            "city": "Tłuchowo"
+        },
+        {
+            "city": "Topólka"
+        },
+        {
+            "city": "Toruń"
+        },
+        {
+            "city": "Tuchola"
+        },
+        {
+            "city": "Turzno"
+        },
+        {
+            "city": "Unisław"
+        },
+        {
+            "city": "Waganiec"
+        },
+        {
+            "city": "Warlubie"
+        },
+        {
+            "city": "Wąbrzeźno"
+        },
+        {
+            "city": "Wąpielsk"
+        },
+        {
+            "city": "Wielgie"
+        },
+        {
+            "city": "Więcbork"
+        },
+        {
+            "city": "Włocławek"
+        },
+        {
+            "city": "Zakrzewo"
+        },
+        {
+            "city": "Zbójno"
+        },
+        {
+            "city": "Zławieś Wielka"
+        },
+        {
+            "city": "Złotniki Kujawskie"
+        },
+        {
+            "city": "Złotoria"
+        },
+        {
+            "city": "Żnin"
+        }
+    ]
+}

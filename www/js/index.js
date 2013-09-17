@@ -77,7 +77,23 @@ var app = {
     },
 
     showProvinceScreen: function(){
-        console.log(this);
+        var
+            province = $(this).text(),
+            url = 'data/#province/#province.json';
+
+        app.screens.$province.find('h2').text(province);
+        province = app.parseToPath(province);
+        url = url.replace(/#province/ig, province);
+
+        $.getJSON(url, function(data) {
+            var
+                source = $('#province-template').html(),
+                template = Handlebars.compile(source),
+                html = template(data);
+
+            app.screens.$province.find('ul').html(html);
+            app.showScreen('$province');
+        });
     },
 
     showCityScreen: function(city){
@@ -98,7 +114,7 @@ var app = {
 
     parseToPath: function(str) {
         return str.toLowerCase()
-            .replace(' ', '_')
+            .replace(/\s|-/ig, '_')
             .replace(/ś/ig, 's')
             .replace(/ą/ig, 'a')
             .replace(/ę/ig, 'e')

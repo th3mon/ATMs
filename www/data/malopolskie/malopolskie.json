@@ -1,0 +1,703 @@
+{
+    "data": [
+        {
+            "city": "Alwernia"
+        },
+        {
+            "city": "Andrychów"
+        },
+        {
+            "city": "Babice"
+        },
+        {
+            "city": "Bachowice"
+        },
+        {
+            "city": "Balice"
+        },
+        {
+            "city": "Białka"
+        },
+        {
+            "city": "Białka Tatrzańska"
+        },
+        {
+            "city": "Biały Dunajec"
+        },
+        {
+            "city": "Biecz"
+        },
+        {
+            "city": "Bobowa"
+        },
+        {
+            "city": "Bochnia"
+        },
+        {
+            "city": "Bolesław"
+        },
+        {
+            "city": "Bolesław"
+        },
+        {
+            "city": "Borzęcin"
+        },
+        {
+            "city": "Brzesko"
+        },
+        {
+            "city": "Brzeszcze"
+        },
+        {
+            "city": "Brzezna"
+        },
+        {
+            "city": "Brzeźnica"
+        },
+        {
+            "city": "Budzów"
+        },
+        {
+            "city": "Bukowina Tatrzańska"
+        },
+        {
+            "city": "Bukowno"
+        },
+        {
+            "city": "Charsznica"
+        },
+        {
+            "city": "Chełmek"
+        },
+        {
+            "city": "Chrzanów"
+        },
+        {
+            "city": "Chyżne"
+        },
+        {
+            "city": "Ciężkowice"
+        },
+        {
+            "city": "Czarna Góra"
+        },
+        {
+            "city": "Czarny Dunajec"
+        },
+        {
+            "city": "Czasław"
+        },
+        {
+            "city": "Czchów"
+        },
+        {
+            "city": "Czernichów"
+        },
+        {
+            "city": "Dąbrowa Tarnowska"
+        },
+        {
+            "city": "Dobczyce"
+        },
+        {
+            "city": "Dobra"
+        },
+        {
+            "city": "Drwinia"
+        },
+        {
+            "city": "Gdów"
+        },
+        {
+            "city": "Głogoczów"
+        },
+        {
+            "city": "Gnojnik"
+        },
+        {
+            "city": "Gołcza"
+        },
+        {
+            "city": "Gołkowice Górne"
+        },
+        {
+            "city": "Gorlice"
+        },
+        {
+            "city": "Grojec"
+        },
+        {
+            "city": "Gromnik"
+        },
+        {
+            "city": "Gródek nad Dunajcem"
+        },
+        {
+            "city": "Grybów"
+        },
+        {
+            "city": "Imbramowice"
+        },
+        {
+            "city": "Iwanowice Włościańskie"
+        },
+        {
+            "city": "Iwkowa"
+        },
+        {
+            "city": "Jabłonka"
+        },
+        {
+            "city": "Jadowniki"
+        },
+        {
+            "city": "Jawiszowice"
+        },
+        {
+            "city": "Jawornik"
+        },
+        {
+            "city": "Jazowsko"
+        },
+        {
+            "city": "Jerzmanowice"
+        },
+        {
+            "city": "Jodłownik"
+        },
+        {
+            "city": "Jordanów"
+        },
+        {
+            "city": "Jurków"
+        },
+        {
+            "city": "Jurków"
+        },
+        {
+            "city": "Kalwaria Zebrzydowska"
+        },
+        {
+            "city": "Kamienica"
+        },
+        {
+            "city": "Kamionka Wielka"
+        },
+        {
+            "city": "Kasina Wielka"
+        },
+        {
+            "city": "Kęty"
+        },
+        {
+            "city": "Klęczany"
+        },
+        {
+            "city": "Klucze"
+        },
+        {
+            "city": "Kluszkowce"
+        },
+        {
+            "city": "Kłaj"
+        },
+        {
+            "city": "Kocmyrzów"
+        },
+        {
+            "city": "Kokotów"
+        },
+        {
+            "city": "Korzenna"
+        },
+        {
+            "city": "Kościelisko"
+        },
+        {
+            "city": "Kozłów"
+        },
+        {
+            "city": "Kraków"
+        },
+        {
+            "city": "Krempachy"
+        },
+        {
+            "city": "Krościenko nad Dunajcem"
+        },
+        {
+            "city": "Krynica-Zdrój"
+        },
+        {
+            "city": "Krzeszowice"
+        },
+        {
+            "city": "Krzywaczka"
+        },
+        {
+            "city": "Książ Wielki"
+        },
+        {
+            "city": "Laskowa"
+        },
+        {
+            "city": "Libiąż"
+        },
+        {
+            "city": "Limanowa"
+        },
+        {
+            "city": "Lipnica Murowana"
+        },
+        {
+            "city": "Lipnica Wielka"
+        },
+        {
+            "city": "Lisia Góra"
+        },
+        {
+            "city": "Liszki"
+        },
+        {
+            "city": "Lubień"
+        },
+        {
+            "city": "Luborzyca"
+        },
+        {
+            "city": "Łabowa"
+        },
+        {
+            "city": "Łapanów"
+        },
+        {
+            "city": "Łącko"
+        },
+        {
+            "city": "Łęg Tarnowski"
+        },
+        {
+            "city": "Łososina Dolna"
+        },
+        {
+            "city": "Łukowica"
+        },
+        {
+            "city": "Łużna"
+        },
+        {
+            "city": "Maków Podhalański"
+        },
+        {
+            "city": "Mała Wieś"
+        },
+        {
+            "city": "Małe Ciche"
+        },
+        {
+            "city": "Maniowy"
+        },
+        {
+            "city": "Męcina"
+        },
+        {
+            "city": "Mędrzechów"
+        },
+        {
+            "city": "Michałowice"
+        },
+        {
+            "city": "Miechów"
+        },
+        {
+            "city": "Modlnica"
+        },
+        {
+            "city": "Modlniczka"
+        },
+        {
+            "city": "Mogilany"
+        },
+        {
+            "city": "Moszczenica"
+        },
+        {
+            "city": "Mszana Dolna"
+        },
+        {
+            "city": "Mszana Górna"
+        },
+        {
+            "city": "Murzasichle"
+        },
+        {
+            "city": "Muszyna"
+        },
+        {
+            "city": "Myślachowice"
+        },
+        {
+            "city": "Myślenice"
+        },
+        {
+            "city": "Nawojowa"
+        },
+        {
+            "city": "Niedomice"
+        },
+        {
+            "city": "Niedzica"
+        },
+        {
+            "city": "Niedźwiedź"
+        },
+        {
+            "city": "Niepołomice"
+        },
+        {
+            "city": "Nowa Góra"
+        },
+        {
+            "city": "Nowe Brzesko"
+        },
+        {
+            "city": "Nowy Sącz"
+        },
+        {
+            "city": "Nowy Targ"
+        },
+        {
+            "city": "Nowy Wiśnicz"
+        },
+        {
+            "city": "Ochotnica Dolna"
+        },
+        {
+            "city": "Olesno"
+        },
+        {
+            "city": "Olkusz"
+        },
+        {
+            "city": "Osiek"
+        },
+        {
+            "city": "Osielec"
+        },
+        {
+            "city": "Oświęcim"
+        },
+        {
+            "city": "Pałecznica"
+        },
+        {
+            "city": "Pcim"
+        },
+        {
+            "city": "Piwniczna-Zdrój"
+        },
+        {
+            "city": "Pleśna"
+        },
+        {
+            "city": "Podegrodzie"
+        },
+        {
+            "city": "Podwilk"
+        },
+        {
+            "city": "Polanka Wielka"
+        },
+        {
+            "city": "Porąbka Iwkowska"
+        },
+        {
+            "city": "Poronin"
+        },
+        {
+            "city": "Proszowice"
+        },
+        {
+            "city": "Przeciszów"
+        },
+        {
+            "city": "Przeginia"
+        },
+        {
+            "city": "Przyszowa"
+        },
+        {
+            "city": "Raba Wyżna"
+        },
+        {
+            "city": "Rabka-Zdrój"
+        },
+        {
+            "city": "Raciechowice"
+        },
+        {
+            "city": "Racławice"
+        },
+        {
+            "city": "Radgoszcz"
+        },
+        {
+            "city": "Radłów"
+        },
+        {
+            "city": "Radziemice"
+        },
+        {
+            "city": "Radziszów"
+        },
+        {
+            "city": "Rajbrot"
+        },
+        {
+            "city": "Roczyny"
+        },
+        {
+            "city": "Ropa"
+        },
+        {
+            "city": "Rożnów"
+        },
+        {
+            "city": "Rybna"
+        },
+        {
+            "city": "Ryglice"
+        },
+        {
+            "city": "Rytro"
+        },
+        {
+            "city": "Rząska"
+        },
+        {
+            "city": "Rzepiennik Strzyżewski"
+        },
+        {
+            "city": "Rzezawa"
+        },
+        {
+            "city": "Sidzina"
+        },
+        {
+            "city": "Siepraw"
+        },
+        {
+            "city": "Skała"
+        },
+        {
+            "city": "Skawina"
+        },
+        {
+            "city": "Skomielna Biała"
+        },
+        {
+            "city": "Skrzydlna"
+        },
+        {
+            "city": "Słaboszów"
+        },
+        {
+            "city": "Słomniki"
+        },
+        {
+            "city": "Słopnice"
+        },
+        {
+            "city": "Sobolów"
+        },
+        {
+            "city": "Spytkowice"
+        },
+        {
+            "city": "Spytkowice"
+        },
+        {
+            "city": "Stary Sącz"
+        },
+        {
+            "city": "Stróże"
+        },
+        {
+            "city": "Stryszawa"
+        },
+        {
+            "city": "Sucha Beskidzka"
+        },
+        {
+            "city": "Sułkowice"
+        },
+        {
+            "city": "Sułoszowa"
+        },
+        {
+            "city": "Szaflary"
+        },
+        {
+            "city": "Szczawa"
+        },
+        {
+            "city": "Szczawnica"
+        },
+        {
+            "city": "Szczucin"
+        },
+        {
+            "city": "Szczurowa"
+        },
+        {
+            "city": "Szczyrzyc"
+        },
+        {
+            "city": "Szerzyny"
+        },
+        {
+            "city": "Świątniki Górne"
+        },
+        {
+            "city": "Świdnik"
+        },
+        {
+            "city": "Tarnów"
+        },
+        {
+            "city": "Tenczynek"
+        },
+        {
+            "city": "Tęgoborze"
+        },
+        {
+            "city": "Tokarnia"
+        },
+        {
+            "city": "Trzciana"
+        },
+        {
+            "city": "Trzebinia"
+        },
+        {
+            "city": "Trzyciąż"
+        },
+        {
+            "city": "Tuchów"
+        },
+        {
+            "city": "Tylicz"
+        },
+        {
+            "city": "Tymbark"
+        },
+        {
+            "city": "Ujanowice"
+        },
+        {
+            "city": "Uście Gorlickie"
+        },
+        {
+            "city": "Wadowice"
+        },
+        {
+            "city": "Wawrzeńczyce"
+        },
+        {
+            "city": "Węgrzce"
+        },
+        {
+            "city": "Węgrzce Wielkie"
+        },
+        {
+            "city": "Wieliczka"
+        },
+        {
+            "city": "Wielka Wieś"
+        },
+        {
+            "city": "Wieprz"
+        },
+        {
+            "city": "Wierchomla Mała"
+        },
+        {
+            "city": "Wierzchosławice"
+        },
+        {
+            "city": "Wietrzychowice"
+        },
+        {
+            "city": "Wiśniowa"
+        },
+        {
+            "city": "Witkowice"
+        },
+        {
+            "city": "Wojnicz"
+        },
+        {
+            "city": "Wola Dębińska"
+        },
+        {
+            "city": "Wola Filipowska"
+        },
+        {
+            "city": "Wola Rzędzińska"
+        },
+        {
+            "city": "Wolbrom"
+        },
+        {
+            "city": "Wysowa-Zdrój"
+        },
+        {
+            "city": "Zabierzów"
+        },
+        {
+            "city": "Zabierzów Bocheński"
+        },
+        {
+            "city": "Zabrzeż"
+        },
+        {
+            "city": "Zakliczyn"
+        },
+        {
+            "city": "Zakopane"
+        },
+        {
+            "city": "Zator"
+        },
+        {
+            "city": "Zawoja"
+        },
+        {
+            "city": "Ząb"
+        },
+        {
+            "city": "Zegartowice"
+        },
+        {
+            "city": "Zelczyna"
+        },
+        {
+            "city": "Zembrzyce"
+        },
+        {
+            "city": "Zielonki"
+        },
+        {
+            "city": "Zubrzyca Górna"
+        },
+        {
+            "city": "Żabno"
+        },
+        {
+            "city": "Żegiestów"
+        },
+        {
+            "city": "Żegocina"
+        }
+    ]
+}

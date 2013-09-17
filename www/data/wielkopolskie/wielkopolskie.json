@@ -1,0 +1,739 @@
+{
+    "data": [
+        {
+            "city": "Babiak"
+        },
+        {
+            "city": "Baranów"
+        },
+        {
+            "city": "Białośliwie"
+        },
+        {
+            "city": "Biskupice"
+        },
+        {
+            "city": "Blizanów"
+        },
+        {
+            "city": "Bojanowo"
+        },
+        {
+            "city": "Bolewice"
+        },
+        {
+            "city": "Borek Wielkopolski"
+        },
+        {
+            "city": "Borówiec"
+        },
+        {
+            "city": "Boszkowo"
+        },
+        {
+            "city": "Boszkowo-Letnisko"
+        },
+        {
+            "city": "Bralin"
+        },
+        {
+            "city": "Brdów"
+        },
+        {
+            "city": "Brudzew"
+        },
+        {
+            "city": "Brzeziny"
+        },
+        {
+            "city": "Budzyń"
+        },
+        {
+            "city": "Buk"
+        },
+        {
+            "city": "Ceków"
+        },
+        {
+            "city": "Chocz"
+        },
+        {
+            "city": "Chodzież"
+        },
+        {
+            "city": "Chrzypsko Wielkie"
+        },
+        {
+            "city": "Ciążeń"
+        },
+        {
+            "city": "Czajków"
+        },
+        {
+            "city": "Czarnków"
+        },
+        {
+            "city": "Czempiń"
+        },
+        {
+            "city": "Czermin"
+        },
+        {
+            "city": "Czerniejewo"
+        },
+        {
+            "city": "Czerwonak"
+        },
+        {
+            "city": "Damasławek"
+        },
+        {
+            "city": "Dąbie"
+        },
+        {
+            "city": "Dąbrówka"
+        },
+        {
+            "city": "Dobra"
+        },
+        {
+            "city": "Dobrzyca"
+        },
+        {
+            "city": "Dolsk"
+        },
+        {
+            "city": "Dopiewo"
+        },
+        {
+            "city": "Doruchów"
+        },
+        {
+            "city": "Drawsko"
+        },
+        {
+            "city": "Duszniki"
+        },
+        {
+            "city": "Giewartów"
+        },
+        {
+            "city": "Gizałki"
+        },
+        {
+            "city": "Gniezno"
+        },
+        {
+            "city": "Godziesze Wielkie"
+        },
+        {
+            "city": "Golina"
+        },
+        {
+            "city": "Gołańcz"
+        },
+        {
+            "city": "Gołuchów"
+        },
+        {
+            "city": "Gostyń"
+        },
+        {
+            "city": "Grabów nad Prosną"
+        },
+        {
+            "city": "Granowo"
+        },
+        {
+            "city": "Grodziec"
+        },
+        {
+            "city": "Grodzisk Wielkopolski"
+        },
+        {
+            "city": "Gruszczyn"
+        },
+        {
+            "city": "Grzegorzew"
+        },
+        {
+            "city": "Jaraczewo"
+        },
+        {
+            "city": "Jaraczewo"
+        },
+        {
+            "city": "Jarocin"
+        },
+        {
+            "city": "Jastrowie"
+        },
+        {
+            "city": "Jerka"
+        },
+        {
+            "city": "Jutrosin"
+        },
+        {
+            "city": "Kaczory"
+        },
+        {
+            "city": "Kalisz"
+        },
+        {
+            "city": "Kamieniec"
+        },
+        {
+            "city": "Kamionki"
+        },
+        {
+            "city": "Kaszczor"
+        },
+        {
+            "city": "Kawęczyn"
+        },
+        {
+            "city": "Kazimierz Biskupi"
+        },
+        {
+            "city": "Kaźmierz"
+        },
+        {
+            "city": "Kąkolewo"
+        },
+        {
+            "city": "Kępno"
+        },
+        {
+            "city": "Kiekrz"
+        },
+        {
+            "city": "Kiełczewo"
+        },
+        {
+            "city": "Kiszkowo"
+        },
+        {
+            "city": "Kleczew"
+        },
+        {
+            "city": "Kłecko"
+        },
+        {
+            "city": "Kłodawa"
+        },
+        {
+            "city": "Kobyla Góra"
+        },
+        {
+            "city": "Kobylin"
+        },
+        {
+            "city": "Kołaczkowo"
+        },
+        {
+            "city": "Koło"
+        },
+        {
+            "city": "Komorniki"
+        },
+        {
+            "city": "Konin"
+        },
+        {
+            "city": "Kostrzyn"
+        },
+        {
+            "city": "Kościan"
+        },
+        {
+            "city": "Kościelec"
+        },
+        {
+            "city": "Kotlin"
+        },
+        {
+            "city": "Koziegłowy"
+        },
+        {
+            "city": "Koźmin Wielkopolski"
+        },
+        {
+            "city": "Koźminek"
+        },
+        {
+            "city": "Kórnik"
+        },
+        {
+            "city": "Krajenka"
+        },
+        {
+            "city": "Kramsk"
+        },
+        {
+            "city": "Kraszewice"
+        },
+        {
+            "city": "Krobia"
+        },
+        {
+            "city": "Krosno"
+        },
+        {
+            "city": "Krotoszyn"
+        },
+        {
+            "city": "Krzemieniewo"
+        },
+        {
+            "city": "Krzycko Wielkie"
+        },
+        {
+            "city": "Krzymów"
+        },
+        {
+            "city": "Krzywiń"
+        },
+        {
+            "city": "Krzyż Wielkopolski"
+        },
+        {
+            "city": "Książ Wielkopolski"
+        },
+        {
+            "city": "Kuślin"
+        },
+        {
+            "city": "Kwilcz"
+        },
+        {
+            "city": "Lądek"
+        },
+        {
+            "city": "Lądek"
+        },
+        {
+            "city": "Leszno"
+        },
+        {
+            "city": "Licheń Stary"
+        },
+        {
+            "city": "Lipka"
+        },
+        {
+            "city": "Lipno"
+        },
+        {
+            "city": "Lisków"
+        },
+        {
+            "city": "Lubasz"
+        },
+        {
+            "city": "Luboń"
+        },
+        {
+            "city": "Lwówek"
+        },
+        {
+            "city": "Łęka Opatowska"
+        },
+        {
+            "city": "Łobżenica"
+        },
+        {
+            "city": "Łowyń"
+        },
+        {
+            "city": "Malanów"
+        },
+        {
+            "city": "Margonin"
+        },
+        {
+            "city": "Miasteczko Krajeńskie"
+        },
+        {
+            "city": "Miedzichowo"
+        },
+        {
+            "city": "Miejska Górka"
+        },
+        {
+            "city": "Mieleszyn"
+        },
+        {
+            "city": "Mieścisko"
+        },
+        {
+            "city": "Międzychód"
+        },
+        {
+            "city": "Mikstat"
+        },
+        {
+            "city": "Miłosław"
+        },
+        {
+            "city": "Mosina"
+        },
+        {
+            "city": "Murowana Goślina"
+        },
+        {
+            "city": "Nekla"
+        },
+        {
+            "city": "Niechanowo"
+        },
+        {
+            "city": "Nowe Miasto nad Wartą"
+        },
+        {
+            "city": "Nowe Skalmierzyce"
+        },
+        {
+            "city": "Nowy Tomyśl"
+        },
+        {
+            "city": "Oborniki"
+        },
+        {
+            "city": "Obrzycko"
+        },
+        {
+            "city": "Odolanów"
+        },
+        {
+            "city": "Okonek"
+        },
+        {
+            "city": "Opalenica"
+        },
+        {
+            "city": "Opatówek"
+        },
+        {
+            "city": "Orchowo"
+        },
+        {
+            "city": "Orzechowo"
+        },
+        {
+            "city": "Osieczna"
+        },
+        {
+            "city": "Osiek Mały"
+        },
+        {
+            "city": "Osiek nad Notecią"
+        },
+        {
+            "city": "Ostroróg"
+        },
+        {
+            "city": "Ostrowite"
+        },
+        {
+            "city": "Ostrów Wielkopolski"
+        },
+        {
+            "city": "Ostrzeszów"
+        },
+        {
+            "city": "Otorowo"
+        },
+        {
+            "city": "Pakosław"
+        },
+        {
+            "city": "Perzów"
+        },
+        {
+            "city": "Pępowo"
+        },
+        {
+            "city": "Piaski"
+        },
+        {
+            "city": "Piła"
+        },
+        {
+            "city": "Pleszew"
+        },
+        {
+            "city": "Plewiska"
+        },
+        {
+            "city": "Pniewy"
+        },
+        {
+            "city": "Pobiedziska"
+        },
+        {
+            "city": "Pogorzela"
+        },
+        {
+            "city": "Police Mostowe"
+        },
+        {
+            "city": "Połajewo"
+        },
+        {
+            "city": "Poniec"
+        },
+        {
+            "city": "Powidz"
+        },
+        {
+            "city": "Poznań"
+        },
+        {
+            "city": "Przedecz"
+        },
+        {
+            "city": "Przemęt"
+        },
+        {
+            "city": "Przeźmierowo"
+        },
+        {
+            "city": "Przygodzice"
+        },
+        {
+            "city": "Przykona"
+        },
+        {
+            "city": "Przyłęk"
+        },
+        {
+            "city": "Psarskie"
+        },
+        {
+            "city": "Puszczykowo"
+        },
+        {
+            "city": "Pyzdry"
+        },
+        {
+            "city": "Rakoniewice"
+        },
+        {
+            "city": "Raszków"
+        },
+        {
+            "city": "Rawicz"
+        },
+        {
+            "city": "Rogoźno"
+        },
+        {
+            "city": "Rokietnica"
+        },
+        {
+            "city": "Rososzyca"
+        },
+        {
+            "city": "Rozdrażew"
+        },
+        {
+            "city": "Rychtal"
+        },
+        {
+            "city": "Rychwał"
+        },
+        {
+            "city": "Ryczywół"
+        },
+        {
+            "city": "Rydzyna"
+        },
+        {
+            "city": "Rzgów"
+        },
+        {
+            "city": "Siedlec"
+        },
+        {
+            "city": "Siekierki Wielkie"
+        },
+        {
+            "city": "Sieraków"
+        },
+        {
+            "city": "Skalmierzyce"
+        },
+        {
+            "city": "Skoki"
+        },
+        {
+            "city": "Skorzęcin"
+        },
+        {
+            "city": "Skórzewo"
+        },
+        {
+            "city": "Skulsk"
+        },
+        {
+            "city": "Słupca"
+        },
+        {
+            "city": "Sompolno"
+        },
+        {
+            "city": "Sośnie"
+        },
+        {
+            "city": "Stare Miasto"
+        },
+        {
+            "city": "Stawiszyn"
+        },
+        {
+            "city": "Stęszew"
+        },
+        {
+            "city": "Strzałkowo"
+        },
+        {
+            "city": "Suchy Las"
+        },
+        {
+            "city": "Sulmierzyce"
+        },
+        {
+            "city": "Swadzim"
+        },
+        {
+            "city": "Swarzędz"
+        },
+        {
+            "city": "Szamocin"
+        },
+        {
+            "city": "Szamotuły"
+        },
+        {
+            "city": "Szczytniki"
+        },
+        {
+            "city": "Szkaradowo"
+        },
+        {
+            "city": "Ślesin"
+        },
+        {
+            "city": "Śmigiel"
+        },
+        {
+            "city": "Śmiłowo"
+        },
+        {
+            "city": "Śrem"
+        },
+        {
+            "city": "Środa Wielkopolska"
+        },
+        {
+            "city": "Święciechowa"
+        },
+        {
+            "city": "Tarnowo Podgórne"
+        },
+        {
+            "city": "Trzcianka"
+        },
+        {
+            "city": "Trzemeszno"
+        },
+        {
+            "city": "Tuliszków"
+        },
+        {
+            "city": "Turek"
+        },
+        {
+            "city": "Ujście"
+        },
+        {
+            "city": "Wapno"
+        },
+        {
+            "city": "Wągrowiec"
+        },
+        {
+            "city": "Wieleń"
+        },
+        {
+            "city": "Wielichowo"
+        },
+        {
+            "city": "Wierzbinek"
+        },
+        {
+            "city": "Wijewo"
+        },
+        {
+            "city": "Wilczyn"
+        },
+        {
+            "city": "Wilkowo"
+        },
+        {
+            "city": "Witaszyce"
+        },
+        {
+            "city": "Witkowo"
+        },
+        {
+            "city": "Władysławów"
+        },
+        {
+            "city": "Włoszakowice"
+        },
+        {
+            "city": "Wolsztyn"
+        },
+        {
+            "city": "Wronki"
+        },
+        {
+            "city": "Września"
+        },
+        {
+            "city": "Wyrzysk"
+        },
+        {
+            "city": "Wysoka"
+        },
+        {
+            "city": "Zagórów"
+        },
+        {
+            "city": "Zakrzewo"
+        },
+        {
+            "city": "Zaniemyśl"
+        },
+        {
+            "city": "Zbąszyń"
+        },
+        {
+            "city": "Zduny"
+        },
+        {
+            "city": "Złotniki"
+        },
+        {
+            "city": "Złotów"
+        },
+        {
+            "city": "Żelazków"
+        },
+        {
+            "city": "Żerków"
+        }
+    ]
+}

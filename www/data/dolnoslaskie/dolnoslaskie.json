@@ -1,0 +1,493 @@
+{
+    "data": [
+        {
+            "city": "Bardo"
+        },
+        {
+            "city": "Bielany Wrocławskie"
+        },
+        {
+            "city": "Bielawa"
+        },
+        {
+            "city": "Bierutów"
+        },
+        {
+            "city": "Biskupice Podgórne"
+        },
+        {
+            "city": "Bogatynia"
+        },
+        {
+            "city": "Boguszów-Gorce"
+        },
+        {
+            "city": "Bolesławiec"
+        },
+        {
+            "city": "Bolków"
+        },
+        {
+            "city": "Borów"
+        },
+        {
+            "city": "Brzeg Dolny"
+        },
+        {
+            "city": "Bukowice"
+        },
+        {
+            "city": "Bystrzyca"
+        },
+        {
+            "city": "Bystrzyca Kłodzka"
+        },
+        {
+            "city": "Chełmsko Śląskie"
+        },
+        {
+            "city": "Chocianów"
+        },
+        {
+            "city": "Chojnów"
+        },
+        {
+            "city": "Ciepłowody"
+        },
+        {
+            "city": "Cieszków"
+        },
+        {
+            "city": "Czernica"
+        },
+        {
+            "city": "Długołęka"
+        },
+        {
+            "city": "Długopole-Zdrój"
+        },
+        {
+            "city": "Dobroszyce"
+        },
+        {
+            "city": "Domaniów"
+        },
+        {
+            "city": "Duszniki-Zdrój"
+        },
+        {
+            "city": "Dzierżoniów"
+        },
+        {
+            "city": "Gaworzyce"
+        },
+        {
+            "city": "Gądkowice"
+        },
+        {
+            "city": "Głogów"
+        },
+        {
+            "city": "Głuszyca"
+        },
+        {
+            "city": "Góra"
+        },
+        {
+            "city": "Grębocice"
+        },
+        {
+            "city": "Gromadka"
+        },
+        {
+            "city": "Gryfów Śląski"
+        },
+        {
+            "city": "Jawor"
+        },
+        {
+            "city": "Jaworzyna Śląska"
+        },
+        {
+            "city": "Jedlina-Zdrój"
+        },
+        {
+            "city": "Jelcz-Laskowice"
+        },
+        {
+            "city": "Jelenia Góra"
+        },
+        {
+            "city": "Jędrzychowice"
+        },
+        {
+            "city": "Jordanów Śląski"
+        },
+        {
+            "city": "Jugów"
+        },
+        {
+            "city": "Kalinowa"
+        },
+        {
+            "city": "Kamieniec Wrocławski"
+        },
+        {
+            "city": "Kamieniec Ząbkowicki"
+        },
+        {
+            "city": "Kamienna Góra"
+        },
+        {
+            "city": "Karpacz"
+        },
+        {
+            "city": "Kąty Wrocławskie"
+        },
+        {
+            "city": "Kiełczów"
+        },
+        {
+            "city": "Kłodzko"
+        },
+        {
+            "city": "Kobierzyce"
+        },
+        {
+            "city": "Kondratowice"
+        },
+        {
+            "city": "Kostomłoty"
+        },
+        {
+            "city": "Kotla"
+        },
+        {
+            "city": "Kowary"
+        },
+        {
+            "city": "Krośnice"
+        },
+        {
+            "city": "Krzeszów"
+        },
+        {
+            "city": "Kudowa-Zdrój"
+        },
+        {
+            "city": "Kunice"
+        },
+        {
+            "city": "Lądek-Zdrój"
+        },
+        {
+            "city": "Legnica"
+        },
+        {
+            "city": "Legnickie Pole"
+        },
+        {
+            "city": "Leśna"
+        },
+        {
+            "city": "Lubań"
+        },
+        {
+            "city": "Lubawka"
+        },
+        {
+            "city": "Lubiąż"
+        },
+        {
+            "city": "Lubin"
+        },
+        {
+            "city": "Lubomierz"
+        },
+        {
+            "city": "Lutynia"
+        },
+        {
+            "city": "Lwówek Śląski"
+        },
+        {
+            "city": "Łagiewniki"
+        },
+        {
+            "city": "Malczyce"
+        },
+        {
+            "city": "Marcinkowice"
+        },
+        {
+            "city": "Marcinowice"
+        },
+        {
+            "city": "Mieroszów"
+        },
+        {
+            "city": "Mietków"
+        },
+        {
+            "city": "Międzybórz"
+        },
+        {
+            "city": "Międzylesie"
+        },
+        {
+            "city": "Miękinia"
+        },
+        {
+            "city": "Milicz"
+        },
+        {
+            "city": "Miłkowice"
+        },
+        {
+            "city": "Miłoszyce"
+        },
+        {
+            "city": "Mirsk"
+        },
+        {
+            "city": "Mysłakowice"
+        },
+        {
+            "city": "Niechlów"
+        },
+        {
+            "city": "Niemcza"
+        },
+        {
+            "city": "Nowa Ruda"
+        },
+        {
+            "city": "Nowogrodziec"
+        },
+        {
+            "city": "Oborniki Śląskie"
+        },
+        {
+            "city": "Okmiany"
+        },
+        {
+            "city": "Oleśnica"
+        },
+        {
+            "city": "Oleśnica Mała"
+        },
+        {
+            "city": "Olszyna"
+        },
+        {
+            "city": "Oława"
+        },
+        {
+            "city": "Osła"
+        },
+        {
+            "city": "Pęcław"
+        },
+        {
+            "city": "Pęgów"
+        },
+        {
+            "city": "Piechowice"
+        },
+        {
+            "city": "Pieńsk"
+        },
+        {
+            "city": "Pieszyce"
+        },
+        {
+            "city": "Piława Górna"
+        },
+        {
+            "city": "Polanica-Zdrój"
+        },
+        {
+            "city": "Polkowice"
+        },
+        {
+            "city": "Porajów"
+        },
+        {
+            "city": "Prochowice"
+        },
+        {
+            "city": "Prusice"
+        },
+        {
+            "city": "Przemków"
+        },
+        {
+            "city": "Przerzeczyn-Zdrój"
+        },
+        {
+            "city": "Przeworno"
+        },
+        {
+            "city": "Psary"
+        },
+        {
+            "city": "Radków"
+        },
+        {
+            "city": "Radwanice"
+        },
+        {
+            "city": "Radwanice"
+        },
+        {
+            "city": "Rudna"
+        },
+        {
+            "city": "Ruja"
+        },
+        {
+            "city": "Siechnice"
+        },
+        {
+            "city": "Siekierczyn"
+        },
+        {
+            "city": "Sienna"
+        },
+        {
+            "city": "Sobótka"
+        },
+        {
+            "city": "Srebrna Góra"
+        },
+        {
+            "city": "Stronie Śląskie"
+        },
+        {
+            "city": "Strzegom"
+        },
+        {
+            "city": "Strzelin"
+        },
+        {
+            "city": "Sulików"
+        },
+        {
+            "city": "Sułów"
+        },
+        {
+            "city": "Syców"
+        },
+        {
+            "city": "Szczawno-Zdrój"
+        },
+        {
+            "city": "Szczytna"
+        },
+        {
+            "city": "Szklarska Poręba"
+        },
+        {
+            "city": "Ścinawa"
+        },
+        {
+            "city": "Środa Śląska"
+        },
+        {
+            "city": "Świdnica"
+        },
+        {
+            "city": "Świebodzice"
+        },
+        {
+            "city": "Świeradów-Zdrój"
+        },
+        {
+            "city": "Świerzawa"
+        },
+        {
+            "city": "Święta Katarzyna"
+        },
+        {
+            "city": "Świętoszów"
+        },
+        {
+            "city": "Trzebień"
+        },
+        {
+            "city": "Trzebnica"
+        },
+        {
+            "city": "Twardogóra"
+        },
+        {
+            "city": "Udanin"
+        },
+        {
+            "city": "Wałbrzych"
+        },
+        {
+            "city": "Wąsosz"
+        },
+        {
+            "city": "Węgliniec"
+        },
+        {
+            "city": "Wiązów"
+        },
+        {
+            "city": "Wilkszyn"
+        },
+        {
+            "city": "Wińsko"
+        },
+        {
+            "city": "Wisznia Mała"
+        },
+        {
+            "city": "Wleń"
+        },
+        {
+            "city": "Wojcieszów"
+        },
+        {
+            "city": "Wołów"
+        },
+        {
+            "city": "Wrocław"
+        },
+        {
+            "city": "Zawidów"
+        },
+        {
+            "city": "Zawonia"
+        },
+        {
+            "city": "Ząbkowice Śląskie"
+        },
+        {
+            "city": "Zgorzelec"
+        },
+        {
+            "city": "Ziębice"
+        },
+        {
+            "city": "Złotoryja"
+        },
+        {
+            "city": "Złoty Stok"
+        },
+        {
+            "city": "Żarów"
+        },
+        {
+            "city": "Żarska Wieś"
+        },
+        {
+            "city": "Żmigród"
+        },
+        {
+            "city": "Żórawina"
+        }
+    ]
+}

@@ -1,0 +1,478 @@
+{
+    "data": [
+        {
+            "city": "Aleksandrów Łódzki"
+        },
+        {
+            "city": "Andrespol"
+        },
+        {
+            "city": "Bełchatów"
+        },
+        {
+            "city": "Będków"
+        },
+        {
+            "city": "Biała Rawska"
+        },
+        {
+            "city": "Biała Rządowa"
+        },
+        {
+            "city": "Bielawy"
+        },
+        {
+            "city": "Błaszki"
+        },
+        {
+            "city": "Bolesławiec"
+        },
+        {
+            "city": "Bolimów"
+        },
+        {
+            "city": "Brąszewice"
+        },
+        {
+            "city": "Brójce"
+        },
+        {
+            "city": "Brzeziny"
+        },
+        {
+            "city": "Brzeźnio"
+        },
+        {
+            "city": "Buczek"
+        },
+        {
+            "city": "Budziszewice"
+        },
+        {
+            "city": "Burzenin"
+        },
+        {
+            "city": "Chąśno"
+        },
+        {
+            "city": "Cielądz"
+        },
+        {
+            "city": "Czarnocin"
+        },
+        {
+            "city": "Czarnożyły"
+        },
+        {
+            "city": "Czastary"
+        },
+        {
+            "city": "Czerniewice"
+        },
+        {
+            "city": "Daszyna"
+        },
+        {
+            "city": "Dąbrowice"
+        },
+        {
+            "city": "Dłutów"
+        },
+        {
+            "city": "Dmosin"
+        },
+        {
+            "city": "Dobroń"
+        },
+        {
+            "city": "Dobryszyce"
+        },
+        {
+            "city": "Domaniewice"
+        },
+        {
+            "city": "Drzewica"
+        },
+        {
+            "city": "Działoszyn"
+        },
+        {
+            "city": "Galewice"
+        },
+        {
+            "city": "Gałków Mały"
+        },
+        {
+            "city": "Gidle"
+        },
+        {
+            "city": "Głowno"
+        },
+        {
+            "city": "Głuchów"
+        },
+        {
+            "city": "Godzianów"
+        },
+        {
+            "city": "Gomunice"
+        },
+        {
+            "city": "Gorzkowice"
+        },
+        {
+            "city": "Goszczanów"
+        },
+        {
+            "city": "Grabów"
+        },
+        {
+            "city": "Inowłódz"
+        },
+        {
+            "city": "Jawor"
+        },
+        {
+            "city": "Jeziorsko"
+        },
+        {
+            "city": "Jeżów"
+        },
+        {
+            "city": "Kamieńsk"
+        },
+        {
+            "city": "Kiełczygłów"
+        },
+        {
+            "city": "Kiernozia"
+        },
+        {
+            "city": "Kleszczów"
+        },
+        {
+            "city": "Klonowa"
+        },
+        {
+            "city": "Kobiele Wielkie"
+        },
+        {
+            "city": "Kocierzew Południowy"
+        },
+        {
+            "city": "Kodrąb"
+        },
+        {
+            "city": "Koluszki"
+        },
+        {
+            "city": "Konopnica"
+        },
+        {
+            "city": "Konstantynów Łódzki"
+        },
+        {
+            "city": "Kowiesy"
+        },
+        {
+            "city": "Krośniewice"
+        },
+        {
+            "city": "Ksawerów"
+        },
+        {
+            "city": "Kutno"
+        },
+        {
+            "city": "Leśmierz"
+        },
+        {
+            "city": "Lgota Wielka"
+        },
+        {
+            "city": "Lipce Reymontowskie"
+        },
+        {
+            "city": "Lubania"
+        },
+        {
+            "city": "Lubochnia"
+        },
+        {
+            "city": "Lutomiersk"
+        },
+        {
+            "city": "Lututów"
+        },
+        {
+            "city": "Ładzice"
+        },
+        {
+            "city": "Łanięta"
+        },
+        {
+            "city": "Łask"
+        },
+        {
+            "city": "Łęczyca"
+        },
+        {
+            "city": "Łowicz"
+        },
+        {
+            "city": "Łódź"
+        },
+        {
+            "city": "Łubnice"
+        },
+        {
+            "city": "Łyszkowice"
+        },
+        {
+            "city": "Maków"
+        },
+        {
+            "city": "Mokrsko"
+        },
+        {
+            "city": "Moszczenica"
+        },
+        {
+            "city": "Nieborów"
+        },
+        {
+            "city": "Niechcice"
+        },
+        {
+            "city": "Nowy Kawęczyn"
+        },
+        {
+            "city": "Opoczno"
+        },
+        {
+            "city": "Osiedle Niewiadów"
+        },
+        {
+            "city": "Osjaków"
+        },
+        {
+            "city": "Ossa"
+        },
+        {
+            "city": "Ostrowy"
+        },
+        {
+            "city": "Ostrówek"
+        },
+        {
+            "city": "Ozorków"
+        },
+        {
+            "city": "Pabianice"
+        },
+        {
+            "city": "Pajęczno"
+        },
+        {
+            "city": "Paradyż"
+        },
+        {
+            "city": "Parzęczew"
+        },
+        {
+            "city": "Pątnów"
+        },
+        {
+            "city": "Pęczniew"
+        },
+        {
+            "city": "Piątek"
+        },
+        {
+            "city": "Piotrków Trybunalski"
+        },
+        {
+            "city": "Poddębice"
+        },
+        {
+            "city": "Popów Głowieński"
+        },
+        {
+            "city": "Prusak"
+        },
+        {
+            "city": "Przedbórz"
+        },
+        {
+            "city": "Radomsko"
+        },
+        {
+            "city": "Rawa Mazowiecka"
+        },
+        {
+            "city": "Regnów"
+        },
+        {
+            "city": "Ręczno"
+        },
+        {
+            "city": "Rogowiec"
+        },
+        {
+            "city": "Rogów"
+        },
+        {
+            "city": "Rokiciny"
+        },
+        {
+            "city": "Rozprza"
+        },
+        {
+            "city": "Rusiec"
+        },
+        {
+            "city": "Rząśnia"
+        },
+        {
+            "city": "Rzeczyca"
+        },
+        {
+            "city": "Rzgów"
+        },
+        {
+            "city": "Sadkowice"
+        },
+        {
+            "city": "Sędziejowice"
+        },
+        {
+            "city": "Siemkowice"
+        },
+        {
+            "city": "Sieradz"
+        },
+        {
+            "city": "Skierniewice"
+        },
+        {
+            "city": "Skomlin"
+        },
+        {
+            "city": "Słupia"
+        },
+        {
+            "city": "Smolice"
+        },
+        {
+            "city": "Sobota"
+        },
+        {
+            "city": "Sokolniki"
+        },
+        {
+            "city": "Sokolniki"
+        },
+        {
+            "city": "Sokolniki-Las"
+        },
+        {
+            "city": "Spała"
+        },
+        {
+            "city": "Stary Chrząstów"
+        },
+        {
+            "city": "Stryków"
+        },
+        {
+            "city": "Sulejów"
+        },
+        {
+            "city": "Sulmierzyce"
+        },
+        {
+            "city": "Szadek"
+        },
+        {
+            "city": "Szczerców"
+        },
+        {
+            "city": "Świnice Warckie"
+        },
+        {
+            "city": "Tomaszów Mazowiecki"
+        },
+        {
+            "city": "Tuszyn"
+        },
+        {
+            "city": "Uniejów"
+        },
+        {
+            "city": "Walichnowy"
+        },
+        {
+            "city": "Warta"
+        },
+        {
+            "city": "Wartkowice"
+        },
+        {
+            "city": "Widawa"
+        },
+        {
+            "city": "Wielgomłyny"
+        },
+        {
+            "city": "Wieluń"
+        },
+        {
+            "city": "Wieruszów"
+        },
+        {
+            "city": "Wierzchlas"
+        },
+        {
+            "city": "Witonia"
+        },
+        {
+            "city": "Wola Krzysztoporska"
+        },
+        {
+            "city": "Wolbórz"
+        },
+        {
+            "city": "Wróblew"
+        },
+        {
+            "city": "Zadzim"
+        },
+        {
+            "city": "Zduny"
+        },
+        {
+            "city": "Zduńska Wola"
+        },
+        {
+            "city": "Zelów"
+        },
+        {
+            "city": "Zgierz"
+        },
+        {
+            "city": "Złoczew"
+        },
+        {
+            "city": "Żarnów"
+        },
+        {
+            "city": "Żelechlinek"
+        },
+        {
+            "city": "Żychlin"
+        },
+        {
+            "city": "Żytno"
+        }
+    ]
+}

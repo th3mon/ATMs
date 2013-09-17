@@ -1,0 +1,508 @@
+{
+    "data": [
+        {
+            "city": "Albigowa"
+        },
+        {
+            "city": "Baligród"
+        },
+        {
+            "city": "Baranów Sandomierski"
+        },
+        {
+            "city": "Besko"
+        },
+        {
+            "city": "Białobrzegi"
+        },
+        {
+            "city": "Bircza"
+        },
+        {
+            "city": "Błażowa"
+        },
+        {
+            "city": "Boguchwała"
+        },
+        {
+            "city": "Bojanów"
+        },
+        {
+            "city": "Borowa"
+        },
+        {
+            "city": "Bratkowice"
+        },
+        {
+            "city": "Brzostek"
+        },
+        {
+            "city": "Brzozów"
+        },
+        {
+            "city": "Brzyska"
+        },
+        {
+            "city": "Bukowsko"
+        },
+        {
+            "city": "Chłopice"
+        },
+        {
+            "city": "Chmielnik"
+        },
+        {
+            "city": "Chorkówka"
+        },
+        {
+            "city": "Cieszanów"
+        },
+        {
+            "city": "Cisna"
+        },
+        {
+            "city": "Czarna"
+        },
+        {
+            "city": "Czarna"
+        },
+        {
+            "city": "Czarna Górna"
+        },
+        {
+            "city": "Czermin"
+        },
+        {
+            "city": "Czudec"
+        },
+        {
+            "city": "Dębica"
+        },
+        {
+            "city": "Dębowiec"
+        },
+        {
+            "city": "Domaradz"
+        },
+        {
+            "city": "Dubiecko"
+        },
+        {
+            "city": "Dukla"
+        },
+        {
+            "city": "Dydnia"
+        },
+        {
+            "city": "Dynów"
+        },
+        {
+            "city": "Dzikowiec"
+        },
+        {
+            "city": "Fredropol"
+        },
+        {
+            "city": "Frysztak"
+        },
+        {
+            "city": "Gać"
+        },
+        {
+            "city": "Gawłuszowice"
+        },
+        {
+            "city": "Głogów Małopolski"
+        },
+        {
+            "city": "Gorzyce"
+        },
+        {
+            "city": "Górno"
+        },
+        {
+            "city": "Grabownica Starzeńska"
+        },
+        {
+            "city": "Grębów"
+        },
+        {
+            "city": "Grodzisko Dolne"
+        },
+        {
+            "city": "Haczów"
+        },
+        {
+            "city": "Harasiuki"
+        },
+        {
+            "city": "Horyniec-Zdrój"
+        },
+        {
+            "city": "Hyżne"
+        },
+        {
+            "city": "Iwierzyce"
+        },
+        {
+            "city": "Iwonicz-Zdrój"
+        },
+        {
+            "city": "Jarosław"
+        },
+        {
+            "city": "Jasienica Rosielna"
+        },
+        {
+            "city": "Jasionka"
+        },
+        {
+            "city": "Jasło"
+        },
+        {
+            "city": "Jawornik Polski"
+        },
+        {
+            "city": "Jedlicze"
+        },
+        {
+            "city": "Jeżowe"
+        },
+        {
+            "city": "Jodłowa"
+        },
+        {
+            "city": "Kamień"
+        },
+        {
+            "city": "Kańczuga"
+        },
+        {
+            "city": "Kielanówka"
+        },
+        {
+            "city": "Kolbuszowa"
+        },
+        {
+            "city": "Kolbuszowa Dolna"
+        },
+        {
+            "city": "Kołaczyce"
+        },
+        {
+            "city": "Komańcza"
+        },
+        {
+            "city": "Korczyna"
+        },
+        {
+            "city": "Kosina"
+        },
+        {
+            "city": "Kraczkowa"
+        },
+        {
+            "city": "Krasne"
+        },
+        {
+            "city": "Krempna"
+        },
+        {
+            "city": "Krosno"
+        },
+        {
+            "city": "Krościenko Wyżne"
+        },
+        {
+            "city": "Krzeszów"
+        },
+        {
+            "city": "Krzywcza"
+        },
+        {
+            "city": "Kuryłówka"
+        },
+        {
+            "city": "Laszki"
+        },
+        {
+            "city": "Lesko"
+        },
+        {
+            "city": "Leżajsk"
+        },
+        {
+            "city": "Lubaczów"
+        },
+        {
+            "city": "Lubenia"
+        },
+        {
+            "city": "Lutowiska"
+        },
+        {
+            "city": "Łańcut"
+        },
+        {
+            "city": "Łowisko"
+        },
+        {
+            "city": "Majdan Królewski"
+        },
+        {
+            "city": "Manasterz"
+        },
+        {
+            "city": "Markowa"
+        },
+        {
+            "city": "Medyka"
+        },
+        {
+            "city": "Miejsce Piastowe"
+        },
+        {
+            "city": "Mielec"
+        },
+        {
+            "city": "Miłocin"
+        },
+        {
+            "city": "Młyny"
+        },
+        {
+            "city": "Nagawczyna"
+        },
+        {
+            "city": "Narol"
+        },
+        {
+            "city": "Niebylec"
+        },
+        {
+            "city": "Niechobrz"
+        },
+        {
+            "city": "Nienadowa"
+        },
+        {
+            "city": "Nisko"
+        },
+        {
+            "city": "Nowa Dęba"
+        },
+        {
+            "city": "Nowa Sarzyna"
+        },
+        {
+            "city": "Nowy Żmigród"
+        },
+        {
+            "city": "Nozdrzec"
+        },
+        {
+            "city": "Oleszyce"
+        },
+        {
+            "city": "Olszanica"
+        },
+        {
+            "city": "Orły"
+        },
+        {
+            "city": "Osiek Jasielski"
+        },
+        {
+            "city": "Ostrów"
+        },
+        {
+            "city": "Padew Narodowa"
+        },
+        {
+            "city": "Pilzno"
+        },
+        {
+            "city": "Polańczyk"
+        },
+        {
+            "city": "Posada Jaśliska"
+        },
+        {
+            "city": "Pruchnik"
+        },
+        {
+            "city": "Przebendów"
+        },
+        {
+            "city": "Przecław"
+        },
+        {
+            "city": "Przemyśl"
+        },
+        {
+            "city": "Przeworsk"
+        },
+        {
+            "city": "Pustków-Osiedle"
+        },
+        {
+            "city": "Radomyśl nad Sanem"
+        },
+        {
+            "city": "Radomyśl Wielki"
+        },
+        {
+            "city": "Radymno"
+        },
+        {
+            "city": "Rakszawa"
+        },
+        {
+            "city": "Raniżów"
+        },
+        {
+            "city": "Rokietnica"
+        },
+        {
+            "city": "Ropczyce"
+        },
+        {
+            "city": "Roźwienica"
+        },
+        {
+            "city": "Równe"
+        },
+        {
+            "city": "Ruda Różaniecka"
+        },
+        {
+            "city": "Rudnik nad Sanem"
+        },
+        {
+            "city": "Rymanów"
+        },
+        {
+            "city": "Rymanów-Zdrój"
+        },
+        {
+            "city": "Rzeszów"
+        },
+        {
+            "city": "Sanok"
+        },
+        {
+            "city": "Sędziszów Małopolski"
+        },
+        {
+            "city": "Siedliska-Bogusz"
+        },
+        {
+            "city": "Sieniawa"
+        },
+        {
+            "city": "Skołyszyn"
+        },
+        {
+            "city": "Sokołów Małopolski"
+        },
+        {
+            "city": "Solina"
+        },
+        {
+            "city": "Stalowa Wola"
+        },
+        {
+            "city": "Stary Dzików"
+        },
+        {
+            "city": "Straszęcin"
+        },
+        {
+            "city": "Strzegocice"
+        },
+        {
+            "city": "Strzyżów"
+        },
+        {
+            "city": "Świlcza"
+        },
+        {
+            "city": "Tarnobrzeg"
+        },
+        {
+            "city": "Tarnowiec"
+        },
+        {
+            "city": "Tryńcza"
+        },
+        {
+            "city": "Trzebownisko"
+        },
+        {
+            "city": "Tuszów Narodowy"
+        },
+        {
+            "city": "Tuszyma"
+        },
+        {
+            "city": "Tyczyn"
+        },
+        {
+            "city": "Ulanów"
+        },
+        {
+            "city": "Ustrzyki Dolne"
+        },
+        {
+            "city": "Wiązownica"
+        },
+        {
+            "city": "Wielkie Oczy"
+        },
+        {
+            "city": "Wielopole Skrzyńskie"
+        },
+        {
+            "city": "Wiśniowa"
+        },
+        {
+            "city": "Wojaszówka"
+        },
+        {
+            "city": "Zaczernie"
+        },
+        {
+            "city": "Zagorzyce"
+        },
+        {
+            "city": "Zagórz"
+        },
+        {
+            "city": "Zaklików"
+        },
+        {
+            "city": "Zapałów"
+        },
+        {
+            "city": "Zarszyn"
+        },
+        {
+            "city": "Zarzecze"
+        },
+        {
+            "city": "Zgłobień"
+        },
+        {
+            "city": "Zręcin"
+        },
+        {
+            "city": "Żołynia"
+        },
+        {
+            "city": "Żurawica"
+        },
+        {
+            "city": "Żyraków"
+        }
+    ]
+}
