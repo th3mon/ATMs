@@ -52,7 +52,7 @@ var app = {
             $start: $('#start'),
             $atms: $('#atms'),
             $provinces: $('#provinces'),
-            $provinces: $('#provinces'),
+            $province: $('#province'),
             $city: $('#city')
         };
 
@@ -66,20 +66,17 @@ var app = {
         setTimeout(app.showProvincesScreen, 10);
     },
 
-    showProvincesScreen: function(){
-        // var $screens = app.$startScreen;
-
-        // $screens.add(app.$homeScreen).addClass('deactive');
-        // app.$atmsScreen.removeClass('deactive');
+    showScreen: function(screenName){
         app.$screens.addClass('deactive');
-        app.screens.$provinces.removeClass('deactive');
+        app.screens[screenName].removeClass('deactive');
     },
 
-    showCityScreen: function(){
-        var $screens = app.$startScreen;
+    showProvincesScreen: function(){
+        app.showScreen('$provinces');
+    },
 
-        $screens.add(app.$homeScreen).addClass('deactive');
-        app.$atmsScreen.removeClass('deactive');
+    showCityScreen: function(city){
+        app.showScreen('$' + city);
     },
 
     loadATMs: function(city){
@@ -125,6 +122,6 @@ var app = {
 
         app.$atmsScreen.find('h2').text(app.ATMs.city);
         app.$atmsScreen.find('article ul').html(html);
-        app.showCityScreen();
+        app.showCityScreen(app.ATMs.city);
     }
 };
