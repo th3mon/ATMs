@@ -60,7 +60,11 @@ var app = {
         app.$screens = $('.screen');
 
         app.$buttons = $('.button');
-        app.$buttons.on('click', app.onClickCityButton);
+        app.buttons = {
+            $back: $('.button.back')
+        };
+
+        app.buttons.$back.on('click', app.onClickBackButton);
 
         app.screens.$provinces.find('a').on('click', app.showProvinceScreen);
 
@@ -73,7 +77,7 @@ var app = {
         app.screens[screenName].removeClass('deactive');
 
         if ($.isFunction(callback)) {
-            callback()
+            callback();
         }
     },
 
@@ -81,11 +85,12 @@ var app = {
         app.showScreen('$provinces');
     },
 
-    showProvinceScreen: function(){
-        var
-            province = $(this).text(),
-            url = 'data/#province/#province.json';
+    showProvinceScreen: function(province){
+        var url = 'data/#province/#province.json';
 
+        app.cache.backType = 'provinces';
+
+        province = $(this).text() || province;
         app.cache.province = province;
 
         app.screens.$province.find('h2').text(province);
@@ -124,7 +129,10 @@ var app = {
                 app.showScreen('$city');
             };
 
+        app.cache.backType = 'province';
+
         city = app.parseToPath(city);
+        console.log(city);
         url = url.replace('#city', city).replace('#province', app.cache.provinceUrl);
 
         $.getJSON(url, function(data){
@@ -145,9 +153,21 @@ var app = {
             .replace(/ń/ig, 'n');
     },
 
-    onClickCityButton: function(){
-        var city = $(this).data('city');
+    onClickBackButton: function(){
+        var type = '';
 
-        app.loadATMs(city);
+        if ('province' === app.cache.backType) {
+            app.showProvinceScreen(app.cache.province);
+            app.cache.backType = '';
+        }
+
+        else if ('city' === app.cache.backType) {
+            app.showProvinceScreen(app.cache.city);
+            app.cache.backType = '';
+        }
+
+        else {
+            app.showProvincesScreen();
+        }
     }
 };
