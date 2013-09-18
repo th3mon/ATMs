@@ -1,1 +1,10 @@
-http://www.karty.pl/
+dane
+    http://www.karty.pl/
+    http://www.bankomaty.biz/
+
+libs
+    http://www.taffydb.com/
+
+tools
+    http://www.objgen.com/json
+    http://jsonlint.com/
