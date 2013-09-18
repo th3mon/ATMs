@@ -1,0 +1,7 @@
+city = Bielany Wrocławskie
+data[]
+  bank = BZWBK
+  address = LG 1-2 - Zakłady 'LG Electronics Wrocław'
+  accessibility = Pn-Pt 08:00-20:00
+  id = A1522589
+  deposit b = false

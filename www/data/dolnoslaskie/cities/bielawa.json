@@ -1,0 +1,49 @@
+{
+    "city": "Bielawa",
+    "data": [
+        {
+            "bank": "BZWBK",
+            "address": "1 Maja 34"
+        },
+        {
+            "bank": "CASH4YOU",
+            "address": "1 Maja 37 - Supermarket 'Biedronka'"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Berlinga 44 - Supermarket 'Intermarche'"
+        },
+        {
+            "bank": "PEKAOSA",
+            "address": "Berlinga 44 - Supermarket 'Intermarche'"
+        },
+        {
+            "bank": "SGB",
+            "address": "Os. Włókniarzy 1"
+        },
+        {
+            "bank": "SGB",
+            "address": "Piłsudskiego 74"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Plac Wolności 3 - Dom Handlowy 'Społem'"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Plac Wolności 5 - Sklep 'Renotex'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Przodowników Pracy 1 - Sklep Chemiczno-Przemysłowy"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Sobieskiego 17"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Wolności 67 - Supermarket 'Biedronka'"
+        }
+    ]
+}

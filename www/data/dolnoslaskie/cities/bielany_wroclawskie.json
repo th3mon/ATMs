@@ -1,0 +1,100 @@
+{
+    "city": "Bielany Wrocławskie",
+    "data": [
+        {
+            "bank": "ECARD",
+            "address": "Czekoladowa 7 - Sklep 'Ikea'"
+        },
+        {
+            "bank": "ECARD",
+            "address": "Czekoladowa 7 - Sklep 'Ikea'",
+            "accessibility": false,
+            "id": "C9110837",
+            "deposit": false
+        },
+        {
+            "bank": "EURONET",
+            "address": "Czekoladowa 7 - Sklep 'Ikea'",
+            "accessibility": "24h",
+            "id": "PLNT0411",
+            "deposit": false
+        },
+        {
+            "bank": "EURONET",
+            "address": "Czekoladowa 7 - Sklep 'Ikea'",
+            "accessibility": "Pn-So 10:00-21:00, Nd 09:00-21:00",
+            "id": "PLDT0117",
+            "deposit": false
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Czekoladowa 9 - Centrum Handlowe 'Bielany'",
+            "accessibility": "09:00-22:00",
+            "id": "A1522501",
+            "deposit": false
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Czekoladowa 9 - Centrum Handlowe 'Bielany'",
+            "accessibility": "24h",
+            "id": "S1WR3019",
+            "deposit": false
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Czekoladowa 9 - Supermarket 'Tesco'",
+            "accessibility": "07:30-23:00",
+            "id": "S1WR3123",
+            "deposit": false
+        },
+        {
+            "bank": "PEKAOSA",
+            "address": "Czekoladowa 11 - Centrum Handlowe 'Bielany' - Supermarket 'Tesco'",
+            "accessibility": "08:00-24:00",
+            "id": "A0901004",
+            "deposit": false
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Francuska 6 - Supermarket 'Auchan'",
+            "accessibility": "08:00-21:00",
+            "id": "A1522552",
+            "deposit": false
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Francuska 6 - Supermarket 'Auchan'",
+            "accessibility": "24h",
+            "id": "S1WR3180",
+            "deposit": false
+        },
+        {
+            "bank": "EURONET",
+            "address": "Francuska 6 - Supermarket 'Auchan'",
+            "accessibility": "Pn-So 08:00-23:00, Nd 08:00-24:00",
+            "id": "PLNT0484",
+            "deposit": false
+        },
+        {
+            "bank": "ING",
+            "address": "Tyniecka 3 - Supermarket 'Makro Cash &amp; Carry'",
+            "accessibility": "b/d",
+            "id": "A8100147",
+            "deposit": false
+        },
+        {
+            "bank": "EURONET",
+            "address": "Tyniecka 3 - Supermarket 'Makro Cash &amp; Carry'",
+            "accessibility": "24h",
+            "id": "PLNI0515",
+            "deposit": false
+        },
+        {
+            "bank": "KB",
+            "address": "Wrocławska 7",
+            "accessibility": "24h",
+            "id": "6580",
+            "deposit": false
+        }
+    ]
+}
