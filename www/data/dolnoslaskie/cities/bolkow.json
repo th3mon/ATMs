@@ -1,0 +1,17 @@
+{
+    "city": "Bolków",
+    "data": [
+        {
+            "bank": "PKOBP",
+            "address": "Niepodległości 1"
+        },
+        {
+            "bank": "BPS",
+            "address": "Rynek 1 - Ratusz"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Sienkiewicza 16 - Supermarket 'Biedronka'"
+        }
+    ]
+}

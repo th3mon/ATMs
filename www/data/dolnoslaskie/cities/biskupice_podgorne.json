@@ -1,0 +1,17 @@
+{
+    "city": "Biskupice Podgórne",
+    "data": [
+        {
+            "bank": "BZWBK",
+            "address": "LG 1-2 - Zakłady 'LG Electronics Wrocław'"
+        },
+        {
+            "bank": "NORDEA",
+            "address": "LG 1 - Zakłady 'LG.Philips LCD Poland'"
+        },
+        {
+            "bank": "NORDEA",
+            "address": "LG 3 - Zakłady 'LG Chem Poland'"
+        }
+    ]
+}

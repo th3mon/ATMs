@@ -1,0 +1,29 @@
+{
+    "city": "Bystrzyca Kłodzka",
+    "data": [
+        {
+            "bank": "BZWBK",
+            "address": "Mickiewicza 8"
+        },
+        {
+            "bank": "SGB",
+            "address": "Os. Szkolne 10b (lokal 17)"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Plac Wolności 11 - Sklep"
+        },
+        {
+            "bank": "BPS",
+            "address": "Sienkiewicza 2"
+        },
+        {
+            "bank": "EURONET",
+            "address": "Strażacka 8 - Supermarket 'Biedronka'"
+        },
+        {
+            "bank": "BGZ",
+            "address": "Wojska Polskiego 20"
+        }
+    ]
+}

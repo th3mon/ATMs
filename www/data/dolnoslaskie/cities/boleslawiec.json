@@ -1,0 +1,109 @@
+{
+    "city": "Bolesławiec",
+    "data": [
+        {
+            "bank": "CASH4YOU",
+            "address": "10 Marca 1 - Supermarket 'Carrefour'"
+        },
+        {
+            "bank": "EURONET",
+            "address": "Al. Tysiąclecia 49 - Supermarket 'Tesco'"
+        },
+        {
+            "bank": "BNPP",
+            "address": "Asnyka 1"
+        },
+        {
+            "bank": "EURONET",
+            "address": "Asnyka 1 - Centrum Handlowe 'Bolesławiec City Center'"
+        },
+        {
+            "bank": "POLBANK",
+            "address": "Asnyka 3"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Asnyka 4 - Sklep Obuwniczy"
+        },
+        {
+            "bank": "KB",
+            "address": "Asnyka 18"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Bankowa 12"
+        },
+        {
+            "bank": "PEKAOSA",
+            "address": "Chopina 7"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Chrobrego 15 - Zakłady 'Polfa'"
+        },
+        {
+            "bank": "CASH4YOU",
+            "address": "Gałczyńskiego - Supermarket 'Biedronka'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Gałczyńskiego 17 - Sklep 'ABC'"
+        },
+        {
+            "bank": "INVEST",
+            "address": "Grunwaldzka 13 - Sklep"
+        },
+        {
+            "bank": "EURONET",
+            "address": "Kościuszki 15 - Supermarket 'Kaufland'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Plac Piłsudskiego 1"
+        },
+        {
+            "bank": "MILL",
+            "address": "Prusa 1-3"
+        },
+        {
+            "bank": "BPH",
+            "address": "Prusa 4"
+        },
+        {
+            "bank": "CASH4YOU",
+            "address": "Prusa 26-28 - Credit Agricole Bank Polska"
+        },
+        {
+            "bank": "SKOK",
+            "address": "Rynek 35"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Sądowa 6"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Sierpnia '80 16"
+        },
+        {
+            "bank": "BGZ",
+            "address": "Sierpnia '80 18"
+        },
+        {
+            "bank": "ING",
+            "address": "Sierpnia '80 22"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Wróblewskiego 4a-4b - Supermarket 'Biedronka'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Zgorzelecka 21 - Sklep Motoryzacyjny"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Zgorzelecka 37 - Sklep GSM"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "city": "Brzeg Dolny",
+    "data": [
+        {
+            "bank": "EURONET",
+            "address": "Al. Jerozolimskie 39 - Supermarket 'Tesco'"
+        },
+        {
+            "bank": "SKOK",
+            "address": "Osiedlowa 2"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Rynek 10-12"
+        },
+        {
+            "bank": "BPS",
+            "address": "Słowackiego 4"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Tęczowa 14 - Apteka 'Aralia'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Wyspiańskiego 16 - Sklep Przemysłowy"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Zwycięstwa 8 - Pasaż Handlowy"
+        }
+    ]
+}

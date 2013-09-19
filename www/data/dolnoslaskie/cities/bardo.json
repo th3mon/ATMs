@@ -1,9 +1,13 @@
 {
-  "city": "Bielany Wrocławskie",
-  "data": [
-    {
-      "bank": "ECARD",
-      "address": "Czekoladowa 7 - Sklep 'Ikea'"
-    }
-  ]
+    "city": "Bardo",
+    "data": [
+        {
+            "bank": "BPS",
+            "address": "Plac Wolności 4"
+        },
+        {
+            "bank": "BPS",
+            "address": "Rynek 4"
+        }
+    ]
 }

@@ -130,8 +130,11 @@ var app = {
             };
 
         app.cache.backType = 'province';
+        app.cache.city = city;
 
         city = app.parseToPath(city);
+        app.cache.cityUrl = city;
+
         console.log(city);
         url = url.replace('#city', city).replace('#province', app.cache.provinceUrl);
 

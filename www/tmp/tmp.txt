@@ -1,5 +1,0 @@
-bank = KB
-address = Wrocławska 7
-accessibility = 24h
-id = 6580
-deposit b = false

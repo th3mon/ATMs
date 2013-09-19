@@ -1,0 +1,17 @@
+{
+    "city": "Boguszów-Gorce",
+    "data": [
+        {
+            "bank": "PKOBP",
+            "address": "Fornalskiej 11"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Plac Odrodzenia 16 - Kwiaciarnia"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Traugutta 12a - Pasaż Handlowy"
+        }
+    ]
+}

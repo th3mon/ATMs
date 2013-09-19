@@ -1,0 +1,45 @@
+{
+    "city": "Bogatynia",
+    "data": [
+        {
+            "bank": "BZWBK",
+            "address": "Daszyńskiego 4"
+        },
+        {
+            "bank": "KB",
+            "address": "Daszyńskiego 6a"
+        },
+        {
+            "bank": "BPS",
+            "address": "Daszyńskiego 17"
+        },
+        {
+            "bank": "EURONET",
+            "address": "Daszyńskiego 43a - Supermarket 'Tesco'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "II Armii Wojska Polskiego 1"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "II Armii Wojska Polskiego 10 - Kantor"
+        },
+        {
+            "bank": "EURONET",
+            "address": "II Armii Wojska Polskiego 10 - Supermarket 'Biedronka'"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Kossaka 51 - Pawilon Handlowy"
+        },
+        {
+            "bank": "BZWBK",
+            "address": "Młodych Energetyków 10"
+        },
+        {
+            "bank": "BPS",
+            "address": "Słowiańska 8"
+        }
+    ]
+}

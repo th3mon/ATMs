@@ -1,0 +1,17 @@
+{
+    "city": "Bierutów",
+    "data": [
+        {
+            "bank": "BPS",
+            "address": "Rynek 20"
+        },
+        {
+            "bank": "BPS",
+            "address": "Słowackiego 20 - Sklep"
+        },
+        {
+            "bank": "PKOBP",
+            "address": "Wrocławska 3"
+        }
+    ]
+}
