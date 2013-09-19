@@ -154,8 +154,6 @@ var app = {
     },
 
     onClickBackButton: function(){
-        var type = '';
-
         if ('province' === app.cache.backType) {
             app.showProvinceScreen(app.cache.province);
             app.cache.backType = '';
