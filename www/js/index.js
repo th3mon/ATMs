@@ -65,8 +65,8 @@ var app = {
         };
 
         app.buttons.$back.on('click', app.onClickBackButton);
-
         app.screens.$provinces.find('a').on('click', app.showProvinceScreen);
+        app.listjs.provinces();
 
         $('h1>a').on('click', app.showProvincesScreen);
         setTimeout(app.showProvincesScreen, 10);
@@ -110,6 +110,8 @@ var app = {
                 app.screens.$province.find('a').on('click', function() {
                     app.showCity($(this).text());
                 });
+
+                app.listjs.province()
             });
         });
     },
@@ -141,6 +143,15 @@ var app = {
         $.getJSON(url, function(data){
             parseCityData(data);
         });
+    },
+
+    listjs: { 
+        provinces: function(){
+            ( new List('listProvinces', {valueNames: ['province']}) );
+        },
+        province: function(){
+            return ( new List('listCities', {valueNames: ['city']}) );
+        }
     },
 
     parseToPath: function(str) {

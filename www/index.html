@@ -45,32 +45,38 @@
             <header>
                 <h2>Województwa</h2>
             </header>
-            <ul>
-                <li><a href="#">Dolnośląskie</a></li>
-                <li><a href="#">Kujawsko-Pomorskie</a></li>
-                <li><a href="#">Lubelskie</a></li>
-                <li><a href="#">Lubuskie</a></li>
-                <li><a href="#">Łódzkie</a></li>
-                <li><a href="#">Małopolskie</a></li>
-                <li><a href="#">Mazowieckie</a></li>
-                <li><a href="#">Opolskie</a></li>
-                <li><a href="#">Podkarpackie</a></li>
-                <li><a href="#">Podlaskie</a></li>
-                <li><a href="#">Pomorskie</a></li>
-                <li><a href="#">Śląskie</a></li>
-                <li><a href="#">Świętokrzyskie</a></li>
-                <li><a href="#">Warmińsko-Mazurskie</a></li>
-                <li><a href="#">Wielkopolskie</a></li>
-                <li><a href="#">Zachodniopomorskie</a></li>
-            </ul>
+            <div id="listProvinces">
+                <input placeholder="Wpisz województwo by wyszukać" class="search">
+                <ul class="list">
+                    <li><a class="province" href="#">Dolnośląskie</a></li>
+                    <li><a class="province" href="#">Kujawsko-Pomorskie</a></li>
+                    <li><a class="province" href="#">Lubelskie</a></li>
+                    <li><a class="province" href="#">Lubuskie</a></li>
+                    <li><a class="province" href="#">Łódzkie</a></li>
+                    <li><a class="province" href="#">Małopolskie</a></li>
+                    <li><a class="province" href="#">Mazowieckie</a></li>
+                    <li><a class="province" href="#">Opolskie</a></li>
+                    <li><a class="province" href="#">Podkarpackie</a></li>
+                    <li><a class="province" href="#">Podlaskie</a></li>
+                    <li><a class="province" href="#">Pomorskie</a></li>
+                    <li><a class="province" href="#">Śląskie</a></li>
+                    <li><a class="province" href="#">Świętokrzyskie</a></li>
+                    <li><a class="province" href="#">Warmińsko-Mazurskie</a></li>
+                    <li><a class="province" href="#">Wielkopolskie</a></li>
+                    <li><a class="province" href="#">Zachodniopomorskie</a></li>
+                </ul>
+            </div>
         </section>
 
         <section id="province" class="province screen deactive">
             <header>
                 <h2/>
             </header>
-            <ul>
-            </ul>
+            <div id="listCities">
+                <input placeholder="Wpisz miasto by wyszukać" class="search">
+                <ul class="list">
+                </ul>
+            </div>
         </section>
 
         <section id="city" class="city screen deactive">
@@ -86,7 +92,7 @@
         <script id="city-template" type="text/x-handlebars-template">
         {{#each data}}
             <li>
-                <a href="">
+                <a href="#{{bank}}_{{address}}">
                     <span class="bank">{{bank}}</span>
                     <span class="address">{{address}}</span>
                 </a>
@@ -96,13 +102,14 @@
 
         <script id="province-template" type="text/x-handlebars-template">
         {{#each data}}
-            <li><a href="#{{city}}">{{city}}</a></li>
+            <li><a href="#{{city}}" class="city">{{city}}</a></li>
         {{/each}}
         </script>
 
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/zepto.min.js"></script>
         <script type="text/javascript" src="js/handlebars.js"></script>
+        <script type="text/javascript" src="js/list.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();

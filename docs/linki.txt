@@ -4,6 +4,7 @@ dane
 
 libs
     http://www.taffydb.com/
+    https://github.com/javve/list.js
 
 tools
     http://www.objgen.com/json
