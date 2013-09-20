@@ -111,7 +111,7 @@ var app = {
                     app.showCity($(this).text());
                 });
 
-                app.listjs.province()
+                app.listjs.province();
             });
         });
     },
