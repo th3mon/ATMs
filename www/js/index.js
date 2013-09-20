@@ -17,7 +17,7 @@
  * under the License.
  */
 /* jshint strict: false */
-/* global Handlebars */
+/* global Handlebars, List */
 var app = {
     // Application Constructor
     initialize: function() {
@@ -70,6 +70,32 @@ var app = {
 
         $('h1>a').on('click', app.showProvincesScreen);
         setTimeout(app.showProvincesScreen, 10);
+
+        Handlebars.registerHelper('url', function(items, options) {
+            var
+                out = '',
+                i = 0,
+                item = {},
+                buildUrl = function(item) {
+                    var
+                        bank = app.parseToPath(item.bank),
+                        address = app.parseToPath(item.address),
+                        id = app.parseToPath(item.id);
+
+                    return '#' + bank + '_' + address + '_' + id;
+                };
+
+            for (; i < items.length; i++) {
+                item = items[i];
+
+                out += '<li><a href="' + buildUrl(item) + '">';
+                out += ' <span class="address">Adres: ' + item.address + '</span>';
+                out += ' <span class="bank">Bank: ' + item.bank + '</span>';
+                out += '</a></li>';
+            }
+
+            return out;
+        });
     },
 
     showScreen: function(screenName, callback){
@@ -108,7 +134,7 @@ var app = {
             app.screens.$province.find('ul').html(html);
             app.showScreen('$province', function() {
                 app.screens.$province.find('a').on('click', function() {
-                    app.showCity($(this).text());
+                    app.showCities($(this).text());
                 });
 
                 app.listjs.province();
@@ -116,19 +142,23 @@ var app = {
         });
     },
 
-    showCity: function(city){
+    showCities: function(city){
         var
             url = 'data/#province/cities/#city.json',
 
             parseCityData = function(data){
                 var
-                    source = $('#city-template').html(),
+                    source = $('#cities-template').html(),
                     template = Handlebars.compile(source),
                     html = template(data);
 
                 app.screens.$city.find('h2').text(data.city);
                 app.screens.$city.find('article ul').html(html);
                 app.showScreen('$city');
+
+                $('#city li a').on('click', function() {
+                    console.log($(this).attr('href'));
+                });
             };
 
         app.cache.backType = 'province';
@@ -145,7 +175,7 @@ var app = {
         });
     },
 
-    listjs: { 
+    listjs: {
         provinces: function(){
             ( new List('listProvinces', {valueNames: ['province']}) );
         },
@@ -157,6 +187,7 @@ var app = {
     parseToPath: function(str) {
         return str.toLowerCase()
             .replace(/\s|-/ig, '_')
+            .replace(/"|'/ig, '')
             .replace(/ś/ig, 's')
             .replace(/ą/ig, 'a')
             .replace(/ę/ig, 'e')

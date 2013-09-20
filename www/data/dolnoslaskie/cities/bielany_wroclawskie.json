@@ -3,10 +3,6 @@
     "data": [
         {
             "bank": "ECARD",
-            "address": "Czekoladowa 7 - Sklep 'Ikea'"
-        },
-        {
-            "bank": "ECARD",
             "address": "Czekoladowa 7 - Sklep 'Ikea'",
             "accessibility": false,
             "id": "C9110837",

@@ -89,21 +89,31 @@
             </article>
         </section>
 
-        <script id="city-template" type="text/x-handlebars-template">
-        {{#each data}}
-            <li>
-                <a href="#{{bank}}_{{address}}">
-                    <span class="bank">{{bank}}</span>
-                    <span class="address">{{address}}</span>
-                </a>
-            </li>
-        {{/each}}
+        <script id="province-template" type="text/x-handlebars-template">
+            {{#each data}}
+                <li><a href="#{{city}}" class="city">{{city}}</a></li>
+            {{/each}}
+        </script>
+        
+        <script id="cities-template" type="text/x-handlebars-template">
+            {{#url data}}
+                <li>{{url}}</li>
+            {{/url}}
         </script>
 
-        <script id="province-template" type="text/x-handlebars-template">
-        {{#each data}}
-            <li><a href="#{{city}}" class="city">{{city}}</a></li>
-        {{/each}}
+        <script id="city-template" type="text/x-handlebars-template">
+            <img src="img/mapa.png" />
+            <ul>
+                <li>Bank: {{bank}}</li>
+                <li>Adres: {{address}}</li>
+                {{if accessibility}}
+                <li>Dostępność: {{accessibility}}</li>
+                {{/if}}
+                <li>Numer bankomatu: {{id}}</li>
+                {{if deposit}}
+                <li>{{deposit}}</li>
+                {{/if}}
+            </ul>
         </script>
 
         <script type="text/javascript" src="phonegap.js"></script>
